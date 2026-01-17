@@ -9,17 +9,19 @@
     body {
       background-color: #121212;
       display: flex;
+      flex-direction: column; /* empilha o chat e a mensagem */
       justify-content: center;
       align-items: center;
       height: 100vh;
       margin: 0;
       font-family: Arial, sans-serif;
+      color: #fff;
     }
 
     /* Container do chat */
     .chat-container {
-      width: 900px;     /* agora mais gordinho pros lados */
-      height: 700px;    /* altura do chat */
+      width: 1000px;     /* mais gordinho pros lados */
+      height: 600px;     /* altura menor */
       background-color: #1e1e1e; /* fundo do chat mais escuro */
       border-radius: 10px;
       box-shadow: 0 0 20px rgba(0,0,0,0.5);
@@ -28,12 +30,25 @@
       justify-content: center;
       align-items: center;
       padding: 10px;
+      margin-bottom: 20px; /* espaço entre chat e mensagem */
     }
 
-    /* O script do chat se ajusta ao container */
+    /* Script do chat ocupa todo o container */
     .chat-container script {
       width: 100%;
       height: 100%;
+    }
+
+    /* Mensagem embaixo do chat */
+    .chat-message {
+      text-align: center;
+      max-width: 800px;
+      font-size: 16px;
+      color: #bbbbbb;
+      background-color: #1a1a1a;
+      padding: 10px 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
     }
 
     /* Responsividade para telas menores */
@@ -42,6 +57,9 @@
         width: 90%;
         height: 600px;
       }
+      .chat-message {
+        max-width: 90%;
+      }
     }
 
     @media (max-width: 600px) {
@@ -49,16 +67,20 @@
         width: 100%;
         height: 500px;
       }
+      .chat-message {
+        max-width: 95%;
+        font-size: 14px;
+      }
     }
   </style>
 </head>
 <body>
-<div style="width:1000px; height:600px; margin:0 auto;">
+  <div class="chat-container">
     <script src='https://html5-chat.com/script/54944/696b438e10841'></script>
-</div>
+  </div>
 
-  <p center>cuidado com o que escreve aqui, não tenho a menor ideia da procedência desse chat, coloquei aqui no maior meme kkkkkk</p>
-  
+  <p class="chat-message">
+    Cuidado com o que escreve aqui, não tenho a menor ideia da procedência desse chat. Coloquei aqui no maior meme kkkkkk
+  </p>
 </body>
 </html>
-
