@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <link rel="icon" href="favicon.png" type="image/png">
+  <meta charset="UTF-8">
+  <title>Workday</title>
+  <style>
+    /* Fundo escuro da página */
+    body {
+      background-color: #121212;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Container do chat */
+    .chat-container {
+      width: 900px;     /* agora mais gordinho pros lados */
+      height: 700px;    /* altura do chat */
+      background-color: #1e1e1e; /* fundo do chat mais escuro */
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.5);
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+    }
+
+    /* O script do chat se ajusta ao container */
+    .chat-container script {
+      width: 100%;
+      height: 100%;
+    }
+
+    /* Responsividade para telas menores */
+    @media (max-width: 950px) {
+      .chat-container {
+        width: 90%;
+        height: 600px;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .chat-container {
+        width: 100%;
+        height: 500px;
+      }
+    }
+  </style>
+</head>
+<body>
+<div style="width:1000px; height:600px; margin:0 auto;">
+    <script src='https://html5-chat.com/script/54944/696b438e10841'></script>
+</div>
+  
+</body>
+</html>
