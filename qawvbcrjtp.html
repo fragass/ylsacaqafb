@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+      <script>
+  // Proteção: exige login em todo acesso
+  if (sessionStorage.getItem("auth") !== "true") {
+ window.location.href = "index.html";
+  }
+</script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Catálogo</title>
@@ -120,3 +126,4 @@ miniProfile.addEventListener("click", () => {
   <script src="js/script.js"></script>
 </body>
 </html>
+
