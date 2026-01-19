@@ -77,13 +77,18 @@
 <body>
 
   <div class="catalogo" id="catalogo"></div>
-  <div id="mini-profile">
+<div id="mini-profile">
    <span id="user-phone"></span>
   <!-- seta fina em SVG -->
   <svg id="arrow" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
     <polyline points="6 9 12 15 18 9"></polyline>
   </svg>
 </div>
+
+  <!-- Dropdown menu -->
+  <div id="dropdown-menu">
+    <button id="logout">Sair</button>
+  </div>
 
 <script>
   // pega o telefone do usuário logado
@@ -126,4 +131,5 @@ miniProfile.addEventListener("click", () => {
   <script src="js/script.js"></script>
 </body>
 </html>
+
 
