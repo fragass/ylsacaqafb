@@ -150,6 +150,16 @@
       cursor: pointer;
       z-index: 10;
     }
+       .episode-title {
+  position: absolute;
+  top: 8px;
+  left: 14px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  z-index: 5;
+  opacity: 0.9;
+}
 </style>
 
   <link rel="stylesheet" href="css/oixdtwfvgt.css">
@@ -194,6 +204,7 @@
 <!-- Modal -->
 <div class="modal" id="modal">
   <div class="player" id="playerBox">
+    <div class="episode-title" id="episodeTitle"></div>
     <button class="close" onclick="closePlayer()">✕</button>
     <iframe id="playerFrame" allow="autoplay" allowfullscreen></iframe>
   </div>
@@ -240,6 +251,7 @@ miniProfile.addEventListener("click", () => {
 
 </body>
 </html>
+
 
 
 
