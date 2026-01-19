@@ -32,8 +32,9 @@ card2.appendChild(img2);
 catalogo.appendChild(card2);
 
 card2.addEventListener("click", () => {
-  window.location.href = "outrapagina.html";
+  window.location.href = "wpszkutfjh.html";
 });
+
 
 
 
