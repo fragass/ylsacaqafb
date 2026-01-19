@@ -1,5 +1,5 @@
 const animeCapa = "imgs/spyxfamily.webp";
-const animeCapa2 = "imgs/anotheranime.webp";
+const animeCapa2 = "imgs/demonslayer.png";
 
 const catalogo = document.getElementById("catalogo");
 
@@ -34,6 +34,7 @@ catalogo.appendChild(card2);
 card2.addEventListener("click", () => {
   window.location.href = "outrapagina.html";
 });
+
 
 
 
