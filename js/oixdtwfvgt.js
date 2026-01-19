@@ -30,22 +30,24 @@
   const container = document.getElementById("episodes");
   const modal = document.getElementById("modal");
   const frame = document.getElementById("playerFrame");
+  const title = document.getElementById("episodeTitle");
 
   select.addEventListener("change", () => {
     container.innerHTML = "";
-
     if (select.value !== "1") return;
 
     temporada1.forEach((id, index) => {
+      const epNum = String(index + 1).padStart(2, "0");
       const card = document.createElement("div");
       card.className = "episode";
 
       card.innerHTML = `
         <img src="https://drive.google.com/thumbnail?id=${id}&sz=w600">
-        <span>Episódio ${String(index + 1).padStart(2, "0")}</span>
+        <span>Episódio ${epNum}</span>
       `;
 
       card.onclick = () => {
+        title.textContent = `Episódio ${epNum}`;
         frame.src = `https://drive.google.com/file/d/${id}/preview`;
         modal.classList.add("active");
       };
@@ -57,6 +59,7 @@
   function closePlayer() {
     modal.classList.remove("active");
     frame.src = "";
+    title.textContent = "";
   }
 
   modal.addEventListener("click", (e) => {
