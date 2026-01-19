@@ -1,4 +1,4 @@
-  const episodes = [
+  const temporada1 = [
     "1udaFP6UgQoQ-KGxk76GPRfBB7MVCEn1w",
     "1hOe-HdseKTJiIikGe_OYPRuOG9o7d9_J",
     "1ZNt9lpMdHaCVb0WFRlgypKwhc55retQy",
@@ -26,25 +26,32 @@
     "1Suuf2Rcmmb6ELB8ulLyYe3yQj_5_WGI7"
   ];
 
+  const select = document.getElementById("season");
   const container = document.getElementById("episodes");
   const modal = document.getElementById("modal");
   const frame = document.getElementById("playerFrame");
 
-  episodes.forEach((id, index) => {
-    const card = document.createElement("div");
-    card.className = "episode";
+  select.addEventListener("change", () => {
+    container.innerHTML = "";
 
-    card.innerHTML = `
-      <img src="https://drive.google.com/thumbnail?id=${id}&sz=w600">
-      <span>Episódio ${String(index + 1).padStart(2, "0")}</span>
-    `;
+    if (select.value !== "1") return;
 
-    card.onclick = () => {
-      frame.src = `https://drive.google.com/file/d/${id}/preview`;
-      modal.classList.add("active");
-    };
+    temporada1.forEach((id, index) => {
+      const card = document.createElement("div");
+      card.className = "episode";
 
-    container.appendChild(card);
+      card.innerHTML = `
+        <img src="https://drive.google.com/thumbnail?id=${id}&sz=w600">
+        <span>Episódio ${String(index + 1).padStart(2, "0")}</span>
+      `;
+
+      card.onclick = () => {
+        frame.src = `https://drive.google.com/file/d/${id}/preview`;
+        modal.classList.add("active");
+      };
+
+      container.appendChild(card);
+    });
   });
 
   function closePlayer() {
