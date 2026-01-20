@@ -20,8 +20,9 @@ document.getElementById("loginForm").addEventListener("submit", async (e) => {
     sessionStorage.setItem("loggedUserPhone", username);
 
     // redireciona para a página do Tetris
-    window.location.href = "qawvbcrjtp.html";
+    window.location.href = "rtkvwkbzarw.html";
   } else {
     document.getElementById("errorMsg").textContent = "Usuário ou senha inválidos!";
   }
 });
+
