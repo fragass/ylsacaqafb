@@ -108,3 +108,4 @@ function closePlayer() {
 modal.addEventListener("click", (e) => {
   if (e.target === modal) closePlayer();
 });
+
