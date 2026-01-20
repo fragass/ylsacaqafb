@@ -4,7 +4,7 @@
 
 // Temporada 1
 const temporada1 = [
-  "12pyVvfOBmWsKd4FVhFkzILnZUVw95uJb", // Ep 01
+  "1ffjjcP6qMyIZ4LeMGB-K3KlD-i7MAXnO", // Ep 01
   "1nhAdMyBAfMXWabFARH5CtYiW35t-mSIQ", // Ep 02
   "16K75KaefUYluEi752KEMj4SBSoN5CdZ5", // Ep 03
   "1rx6w9qkb7o4eMe1HXPrUQMb-qJ0YYeBe", // Ep 04
@@ -35,12 +35,12 @@ const temporada1 = [
   "1DaN8ilJgQP-6aq_QAa1dzplufXZ87euJ", // Ep 29
   "17KniOqqwbQom9z6rcphsndiONBLRrheq", // Ep 30
   "1PjidYSh79g-zwithogAQaJfDBELAVBTW", // Ep 31
-  "11NBG6Xrg5Ncll707TywDRunz9K_IQeIy", // Ep 32
-  "1ZQY5hAb5Vs72nNASzeqixw5zHz9YChNA", // Ep 33
-  "1Gr1iNLthx8oNaxbQk6AHNgqM-aXmcXyI", // Ep 34
-  "11lIZBVpxbkfq9HtGiggaZROddqJO5mr6", // Ep 35
-  "1uYcbap9r-KGPqYH5qPz2RbLeoLm0PPJ1", // Ep 36
-  "16M4gITuJdgwOoqgGcVHteVSPsi8q8LgJ"  // Ep 37
+  "111xjHtmV4qIUx9Abx-YPWD5-VxdLKN6X", // Ep 32
+  "1Wp7Gd-lBuyMdb2d_7opi3MUb-_gaxTPM", // Ep 33
+  "1G3_IU-HQU6xQcaIK2zeQ4rMJ-laW_LzY", // Ep 34
+  "1Z1UI7oupTpfVl_fAbBiCwFmTg-yQ5sYk", // Ep 35
+  "1y8iMnIqOD-pFx25oH9omWgDNGsORsSMo", // Ep 36
+  "16dQmePB0l3_INH-vKRV9ku_dLfV2hQMv"  // Ep 37
 ];
 
 
@@ -108,5 +108,6 @@ function closePlayer() {
 modal.addEventListener("click", (e) => {
   if (e.target === modal) closePlayer();
 });
+
 
 
