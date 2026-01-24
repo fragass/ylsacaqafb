@@ -156,7 +156,8 @@ const data = {
       "1QSa-I1kn70xiDMbk-YrCCs7yVH-OG_tH",
       "1_IC5YdCi8op6vsHoMyWMHHzZzg02pUor",
       "14Z74F0cl660qqme1KUUdQ7OJUOedODFK"
-    ],
+    ]
+  },
       demonslayer: {
     "Temporada 1": [
 "1zDasWMrgaxyYBwWkEgvcoJ_aQTVEP6jZ", // ep 1
@@ -246,4 +247,5 @@ function carregarEpisodios() {
     episodiosDiv.appendChild(a);
   });
 }
+
 
