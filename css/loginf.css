@@ -48,24 +48,11 @@ body {
   color: #5a5a70;
 }
 
-/* Foco */
 #loginForm input:focus {
   outline: none;
   border-color: #00fff0;
   background: #20202d;
   box-shadow: 0 0 10px rgba(0, 255, 240, 0.4);
-}
-
-/* Input inválido / required */
-#loginForm input:invalid {
-  border-color: #ff4d6d;
-  background: #2a2a38;
-  color: #f0f0f0;
-}
-
-#loginForm input:invalid::placeholder {
-  color: #ff4d6d;
-  opacity: 0.7;
 }
 
 /* Botão menos chamativo */
@@ -74,7 +61,7 @@ body {
   background: #0e8388; /* tom sóbrio de azul-ciano */
   border: none;
   border-radius: 8px;
-  color: #e0e0e0;
+  color: #e0e0e0; /* texto neutro */
   font-size: 15px;
   font-weight: 600;
   cursor: pointer;
@@ -84,7 +71,7 @@ body {
 }
 
 #loginForm button:hover {
-  background: #0b6a6e;
+  background: #0b6a6e; /* escurece levemente ao passar o mouse */
   transform: translateY(-1px);
 }
 
@@ -108,3 +95,4 @@ body {
 #loginForm button {
   font-family: 'Segoe UI', sans-serif;
 }
+
