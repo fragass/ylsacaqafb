@@ -15,10 +15,26 @@
     </form>
     <p id="errorMsg"></p>
   </div>
+  <script>
+const form = document.getElementById('loginForm');
+const inputs = form.querySelectorAll('input[required]');
+
+inputs.forEach(input => {
+  input.addEventListener('invalid', (e) => {
+    e.preventDefault(); // impede mensagem padrão
+    input.setCustomValidity('⚠ Preencha este campo'); // mensagem customizada
+  });
+
+  input.addEventListener('input', () => {
+    input.setCustomValidity(''); // limpa mensagem quando usuário digita
+  });
+});
+</script>
   <script src="js/loginf.js"></script>
 </body>
 
 </html>
+
 
 
 
