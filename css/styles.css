@@ -33,7 +33,7 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   gap: 4px; /* cards muito próximos */
-  max-width: 900px;
+  max-width: 600px;
   margin: 80px auto 0;
   place-items: center;
 }
@@ -166,4 +166,5 @@ select {
 #dropdown-menu button:hover {
   background: #e60000;
 }
+
 
