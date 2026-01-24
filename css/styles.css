@@ -128,7 +128,7 @@ select {
   padding: 6px 12px;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.3);
-  z-index: 1000;
+
   display: flex;
   align-items: center;
   gap: 8px;
@@ -184,3 +184,4 @@ select {
   max-width: 320px;
   line-height: 1.3;
 }
+
