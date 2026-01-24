@@ -46,9 +46,15 @@ body {
 }
 
 /* DETALHES */
-.detalhes {
+.detalhes,
+.tutorial-link {
+  
   max-width: 900px;
   margin: 40px auto 0;
+  text-align: center;
+  margin-top: 18px;
+    font-size: 13px;
+  color: #ffffff;
 }
 
 .hidden {
@@ -184,4 +190,5 @@ select {
   max-width: 320px;
   line-height: 1.3;
 }
+
 
