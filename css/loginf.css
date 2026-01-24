@@ -14,7 +14,6 @@ body {
   color: #e0e0e0;
 }
 
-/* Card ultra compacto futurista */
 .login-card {
   width: 100%;
   max-width: 320px;
@@ -26,14 +25,12 @@ body {
   backdrop-filter: blur(6px);
 }
 
-/* Form */
 #loginForm {
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
 
-/* Inputs */
 #loginForm input {
   padding: 12px 14px;
   background: #1a1a23;
@@ -41,7 +38,7 @@ body {
   border-radius: 8px;
   color: #e0f7fa;
   font-size: 15px;
-  transition: all 0.3s ease;
+  transition: 0.3s;
 }
 
 #loginForm input::placeholder {
@@ -55,23 +52,22 @@ body {
   box-shadow: 0 0 10px rgba(0, 255, 240, 0.4);
 }
 
-/* Botão menos chamativo */
 #loginForm button {
   padding: 12px;
-  background: #0e8388; /* tom sóbrio de azul-ciano */
+  background: #0e8388;
   border: none;
   border-radius: 8px;
-  color: #e0e0e0; /* texto neutro */
+  color: #e0e0e0;
   font-size: 15px;
   font-weight: 600;
   cursor: pointer;
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  transition: all 0.25s ease;
+  transition: 0.25s;
 }
 
 #loginForm button:hover {
-  background: #0b6a6e; /* escurece levemente ao passar o mouse */
+  background: #0b6a6e;
   transform: translateY(-1px);
 }
 
@@ -80,7 +76,6 @@ body {
   box-shadow: inset 0 0 4px rgba(14, 131, 136, 0.3);
 }
 
-/* Erro */
 #errorMsg {
   margin-top: 8px;
   font-size: 13px;
@@ -89,10 +84,3 @@ body {
   font-weight: 500;
   letter-spacing: 0.5px;
 }
-
-/* Toque futurista */
-#loginForm input,
-#loginForm button {
-  font-family: 'Segoe UI', sans-serif;
-}
-
