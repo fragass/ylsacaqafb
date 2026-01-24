@@ -34,7 +34,7 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   gap: 4px; /* cards muito próximos */
   max-width: 900px;
-  margin: 70px auto 0;
+  margin: 80px auto 0;
   place-items: center;
 }
 
@@ -166,3 +166,4 @@ select {
 #dropdown-menu button:hover {
   background: #e60000;
 }
+
