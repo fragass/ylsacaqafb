@@ -2,79 +2,92 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
   height: 100vh;
-  background: #080808;
+  background: #1b1b1b; /* fundo escuro elegante */
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #e0e0e0;
+  color: #e1e1e1;
 }
 
-/* Card ultra compacto */
+/* Card ultra compacto estilo Edge */
 .login-card {
   width: 100%;
-  max-width: 300px;
-  padding: 22px 20px;
-  background: #0c0c0c;
-  border: 1px solid #1a1a1a;
-  border-radius: 6px;
+  max-width: 320px;
+  padding: 24px 22px;
+  background: #252526; /* tom escuro moderno */
+  border: 1px solid #3a3a3a;
+  border-radius: 8px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+  backdrop-filter: blur(5px);
 }
 
 /* Form */
 #loginForm {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 14px;
 }
 
 /* Inputs */
 #loginForm input {
-  padding: 10px 12px;
-  background: #060606;
-  border: 1px solid #1a1a1a;
-  border-radius: 4px;
-  color: #f0f0f0;
-  font-size: 14px;
+  padding: 12px 14px;
+  background: #1e1e1e;
+  border: 1px solid #3a3a3a;
+  border-radius: 6px;
+  color: #f3f3f3;
+  font-size: 15px;
+  transition: all 0.25s ease;
 }
 
 #loginForm input::placeholder {
-  color: #666;
+  color: #888;
 }
 
 #loginForm input:focus {
   outline: none;
-  border-color: #2c2c2c;
-  background: #0a0a0a;
+  border-color: #0078d7; /* azul Edge */
+  background: #2a2a2a;
+  box-shadow: 0 0 0 2px rgba(0, 120, 215, 0.25);
 }
 
 /* Botão */
 #loginForm button {
-  margin-top: 6px;
-  padding: 10px;
-  background: #0f0f0f;
-  border: 1px solid #222;
-  border-radius: 4px;
-  color: #e5e5e5;
-  font-size: 14px;
+  padding: 12px;
+  background: #0078d7; /* azul icônico Edge */
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
   cursor: pointer;
+  transition: background 0.2s ease, transform 0.1s ease;
 }
 
 #loginForm button:hover {
-  background: #141414;
+  background: #005a9e;
 }
 
 #loginForm button:active {
-  background: #0a0a0a;
+  transform: scale(0.97);
+  background: #004578;
 }
 
 /* Erro */
 #errorMsg {
-  margin-top: 8px;
-  font-size: 12px;
+  margin-top: 6px;
+  font-size: 13px;
   text-align: center;
-  color: #a44;
+  color: #ff6a6a;
+  font-weight: 500;
+}
+
+/* Pequenos ajustes para compactação */
+#loginForm input,
+#loginForm button {
+  font-family: "Segoe UI", sans-serif;
 }
