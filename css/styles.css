@@ -27,12 +27,12 @@ body {
   flex-direction: column;
 }
 
-/* CATÁLOGO RESPONSIVO */
+/* CATÁLOGO RESPONSIVO (CARDS PRÓXIMOS) */
 .catalogo {
   flex: 1;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-  gap: 12px; /* DISTÂNCIA REDUZIDA ENTRE CARDS */
+  gap: 4px; /* cards muito próximos */
   max-width: 900px;
   margin: 70px auto 0;
   place-items: center;
