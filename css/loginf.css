@@ -68,12 +68,12 @@ body {
 
 #loginForm button:hover {
   background: #141414;
-  box-shadow: 0 0 8px rgb(255, 255, 255); /* sombra azul no hover */
+  box-shadow: 0 0 10px rgba(0, 255, 240, 0.6); /* sombra azul no hover */
 }
 
 #loginForm button:active {
   background: #0a0a0a;
-  box-shadow: 0 0 8px rgb(255, 255, 255); /* sombra azul no hover */
+  box-shadow: 0 0 10px rgba(0, 255, 240, 0.6); /* sombra azul no hover */
 }
 
 /* Erro */
@@ -83,4 +83,5 @@ body {
   text-align: center;
   color: #a44;
 }
+
 
