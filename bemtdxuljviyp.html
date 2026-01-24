@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <script src="js/auth.js"></script>
+                     <script>
+  // Proteção: exige login em todo acesso
+  if (sessionStorage.getItem("auth") !== "true") {
+ window.location.href = "index.html";
+  }
+</script>
   <meta charset="UTF-8">
     <title>Página inicial - Workday</title>
              <style>
@@ -164,5 +169,6 @@ miniProfile.addEventListener("click", () => {
   <script src="js/main.js"></script>
 </body>
 </html>
+
 
 
