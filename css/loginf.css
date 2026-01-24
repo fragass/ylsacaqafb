@@ -2,92 +2,96 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Roboto, sans-serif;
 }
 
 body {
   height: 100vh;
-  background: #1b1b1b; /* fundo escuro elegante */
   display: flex;
-  align-items: center;
   justify-content: center;
-  color: #e1e1e1;
+  align-items: center;
+  background: linear-gradient(135deg, #0f0f12, #1c1c24);
+  color: #e0e0e0;
 }
 
-/* Card ultra compacto estilo Edge */
+/* Card ultra compacto futurista */
 .login-card {
   width: 100%;
   max-width: 320px;
-  padding: 24px 22px;
-  background: #252526; /* tom escuro moderno */
-  border: 1px solid #3a3a3a;
-  border-radius: 8px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.4);
-  backdrop-filter: blur(5px);
+  padding: 26px 24px;
+  background: #111119;
+  border: 1px solid #2c2c38;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.05), 0 10px 25px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(6px);
 }
 
 /* Form */
 #loginForm {
   display: flex;
   flex-direction: column;
-  gap: 14px;
+  gap: 16px;
 }
 
 /* Inputs */
 #loginForm input {
   padding: 12px 14px;
-  background: #1e1e1e;
-  border: 1px solid #3a3a3a;
-  border-radius: 6px;
-  color: #f3f3f3;
+  background: #1a1a23;
+  border: 1px solid #2e2e3f;
+  border-radius: 8px;
+  color: #e0f7fa;
   font-size: 15px;
-  transition: all 0.25s ease;
+  transition: all 0.3s ease;
 }
 
 #loginForm input::placeholder {
-  color: #888;
+  color: #5a5a70;
 }
 
 #loginForm input:focus {
   outline: none;
-  border-color: #0078d7; /* azul Edge */
-  background: #2a2a2a;
-  box-shadow: 0 0 0 2px rgba(0, 120, 215, 0.25);
+  border-color: #00fff0;
+  background: #20202d;
+  box-shadow: 0 0 10px rgba(0, 255, 240, 0.4);
 }
 
 /* Botão */
 #loginForm button {
   padding: 12px;
-  background: #0078d7; /* azul icônico Edge */
+  background: linear-gradient(90deg, #00fff0, #00b8ff);
   border: none;
-  border-radius: 6px;
-  color: #fff;
+  border-radius: 8px;
+  color: #111;
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 600;
   cursor: pointer;
-  transition: background 0.2s ease, transform 0.1s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: all 0.25s ease;
 }
 
 #loginForm button:hover {
-  background: #005a9e;
+  background: linear-gradient(90deg, #00b8ff, #0099cc);
+  transform: translateY(-2px);
 }
 
 #loginForm button:active {
-  transform: scale(0.97);
-  background: #004578;
+  transform: translateY(0);
+  box-shadow: inset 0 0 5px rgba(0, 255, 240, 0.3);
 }
 
 /* Erro */
 #errorMsg {
-  margin-top: 6px;
+  margin-top: 8px;
   font-size: 13px;
   text-align: center;
-  color: #ff6a6a;
+  color: #ff4d6d;
   font-weight: 500;
+  letter-spacing: 0.5px;
 }
 
-/* Pequenos ajustes para compactação */
+/* Toque futurista */
 #loginForm input,
 #loginForm button {
-  font-family: "Segoe UI", sans-serif;
+  font-family: 'Segoe UI', sans-serif;
 }
