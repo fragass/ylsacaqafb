@@ -186,7 +186,7 @@ const data = {
 "1X47RYd5Y6ZBF5GevuUGR1_v3lZRlo_oB", // ep 24
 "1jHkwjsBlPup4t-wkhUYaWYc19weZehxX", // ep 25
 "15-2Xifbxpxpjy02Q6YO-WVPqReZm19ha", // ep 26 
-  }
+
   }
 };
 
@@ -246,6 +246,7 @@ function carregarEpisodios() {
     episodiosDiv.appendChild(a);
   });
 }
+
 
 
 
