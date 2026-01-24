@@ -55,13 +55,13 @@ body {
   box-shadow: 0 0 10px rgba(0, 255, 240, 0.4);
 }
 
-/* Botão */
+/* Botão menos chamativo */
 #loginForm button {
   padding: 12px;
-  background: linear-gradient(90deg, #00fff0, #00b8ff);
+  background: #0e8388; /* tom sóbrio de azul-ciano */
   border: none;
   border-radius: 8px;
-  color: #111;
+  color: #e0e0e0; /* texto neutro */
   font-size: 15px;
   font-weight: 600;
   cursor: pointer;
@@ -71,13 +71,13 @@ body {
 }
 
 #loginForm button:hover {
-  background: linear-gradient(90deg, #00b8ff, #0099cc);
-  transform: translateY(-2px);
+  background: #0b6a6e; /* escurece levemente ao passar o mouse */
+  transform: translateY(-1px);
 }
 
 #loginForm button:active {
   transform: translateY(0);
-  box-shadow: inset 0 0 5px rgba(0, 255, 240, 0.3);
+  box-shadow: inset 0 0 4px rgba(14, 131, 136, 0.3);
 }
 
 /* Erro */
