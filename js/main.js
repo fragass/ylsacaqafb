@@ -141,7 +141,7 @@ const data = {
       "1q8lUDBZ5l6i0YnHhTwRfT8q4wU-a0zvp",
       "1kFsOon29B6O-vqJTBcDLDuLreX3NSZ5k"
     ],
-
+    
     "Temporada 2": [
       "1wflsf879OJgeUppnVJ72oM6wmcWrcssv",
       "1aX_NapNC0EmurC1FerJ3X1hy_a-zSwxV",
@@ -160,7 +160,6 @@ const data = {
   }
   }
 };
-
 const catalogo = document.getElementById("catalogo");
 const detalhes = document.getElementById("detalhes");
 const temporadasSelect = document.getElementById("temporadas");
@@ -217,6 +216,7 @@ function carregarEpisodios() {
     episodiosDiv.appendChild(a);
   });
 }
+
 
 
 
