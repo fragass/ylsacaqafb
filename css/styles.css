@@ -1,32 +1,48 @@
+/* RESET */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* REMOVE SCROLL GLOBAL */
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* BODY */
 body {
-  min-height: 100vh;
   background-color: #0f1115;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   color: #e5e7eb;
 }
 
+/* APP CONTAINER */
 #app {
+  height: 100%;
   padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
 }
 
-/* CATÁLOGO */
+/* CATÁLOGO RESPONSIVO */
 .catalogo {
-  display: flex;
-  justify-content: center;
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   gap: 22px;
-  margin-top: 70px; /* <<< DESCE OS CARDS */
+  max-width: 900px;
+  margin: 70px auto 0;
+  place-items: center;
 }
 
 /* CARD */
 .card {
-  width: 135px;
-  height: 210px;
+  width: 100%;
+  max-width: 135px;
+  aspect-ratio: 135 / 210;
   border-radius: 14px;
   overflow: hidden;
   cursor: pointer;
@@ -55,6 +71,7 @@ body {
   display: none;
 }
 
+/* BOTÃO VOLTAR */
 #voltar {
   background: #1f2937;
   color: #e5e7eb;
@@ -69,7 +86,10 @@ body {
   background: #374151;
 }
 
+/* SELECT */
 select {
+  width: 100%;
+  max-width: 260px;
   background: #111318;
   color: #e5e7eb;
   border: 1px solid #1f2937;
@@ -98,24 +118,6 @@ select {
   background: #374151;
 }
 
-/* LINKS DE TUTORIAL */
-.tutorial-link,
-.tutorial-link2 {
-  margin-top: 18px;
-  text-align: center;
-  font-size: 13px;
-  color: #ffffff;
-}
-
-.tutorial-link a {
-  color: #ffffff;
-  text-decoration: underline;
-}
-
-.tutorial-link a:hover {
-  opacity: 0.8;
-}
-
 /* MINI PROFILE */
 #mini-profile {
   position: absolute;
@@ -123,12 +125,10 @@ select {
   right: 10px;
   background: rgba(0, 0, 0, 0.6);
   color: #fff;
-  font-family: Arial, sans-serif;
   font-size: 14px;
   padding: 6px 12px;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.3);
-
   display: flex;
   align-items: center;
   gap: 8px;
@@ -136,26 +136,19 @@ select {
   user-select: none;
 }
 
-#mini-profile span {
-  font-weight: bold;
-  color: #fff;
-}
-
 /* SETA */
 #arrow {
   transition: transform 0.3s;
-  margin-left: 4px;
 }
 
-/* DROPDOWN MENU */
+/* DROPDOWN */
 #dropdown-menu {
   display: none;
   position: absolute;
-  top: 40px;
-  right: 0;
+  top: 44px;
+  right: 10px;
   background: rgba(0,0,0,0.9);
   border-radius: 6px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
   padding: 6px 10px;
   z-index: 1000;
 }
@@ -167,24 +160,9 @@ select {
   border-radius: 6px;
   padding: 6px 12px;
   cursor: pointer;
-  font-size: 14px;
-  transition: background 0.2s;
   width: 100%;
 }
 
 #dropdown-menu button:hover {
   background: #e60000;
 }
-
-/* WARNING */
-.warning {
-  font-size: 12px;
-  color: #aaa;
-  margin-left: 12px;
-  max-width: 320px;
-  line-height: 1.3;
-}
-
-
-
-
