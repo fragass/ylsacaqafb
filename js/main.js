@@ -158,8 +158,8 @@ const data = {
       "14Z74F0cl660qqme1KUUdQ7OJUOedODFK"
     ]
   }
-  }
 };
+
 const catalogo = document.getElementById("catalogo");
 const detalhes = document.getElementById("detalhes");
 const temporadasSelect = document.getElementById("temporadas");
