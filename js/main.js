@@ -156,7 +156,37 @@ const data = {
       "1QSa-I1kn70xiDMbk-YrCCs7yVH-OG_tH",
       "1_IC5YdCi8op6vsHoMyWMHHzZzg02pUor",
       "14Z74F0cl660qqme1KUUdQ7OJUOedODFK"
+    ],
+      demonslayer: {
+    "Temporada 1": [
+"1zDasWMrgaxyYBwWkEgvcoJ_aQTVEP6jZ", // ep 1
+"1Z_s7O4v0o2tcdDPbntC2s1m3GKaUolZ0", // ep 2
+"1ijTMxWdANyp-2bd13X3-77RM4WbIF32U", // ep 3
+"1uRPe-rV9I_HCeL_BPo85WmM6lCatDPTg", // ep 4
+"1rY_E-E2fuidwXwKNJLoMsJFJm_tDfRFt", // ep 5
+"1dDB90BhDVd9p55IrMjBQXjl00CsHjpYA", // ep 6
+"1r0C0AC2iCcLTP_PzAzOBPSU8EsuWDsC8", // ep7
+"1AX-_q3imXek0cTXZVlrmoNc8TZdgtaK1", // ep8 
+"1eCSXsbHLYKKZSvxQb5H4-HBCmKIP7WkU", // ep 9
+"1cXYzP6SU2UAanu7NvE9GWDLkY_vGHiZV", // ep 10
+"1Awfgtn5wfBisAMfkYQ1y5JgtBNimXrZe", // ep 11
+"12f77N-jQVwe38VTDaS4ywswFMd98ZjdM", // ep 12
+"1KX-CkCHIxoY_BPG0ymn_wkXOaRIDkTZs", // ep 13
+"1vDyk-w75Q1-kzVnWBgCqysHN-xNW9NdL", // ep 14
+"1vs8sCSMA8zKCGfjnXjicNaeD-B1ueq0D", // ep 15
+"1XXM9MaCa_cshA89Eoes4eu5bIpE0k8Ac", // ep 16
+"1OfR2rH_c9Jyf4me9CaPpCM0OM8TBWzFC", // ep 17
+"132OEhj_5eVQFvncRtt02igeNX55vwAbC", // ep 18
+"1ER3JdhGLnjpi6m9P3R2e2nNFcD3TY21R", // ep 19
+"1ZMxYNpyqvw-5nXSuL0hT9AirjB3I4PEy", // ep 20 
+"1Q-H_nVVPxrg9SbdasDbnCqMZo8STWdyP", // ep 21
+"1qrFHr-kj0mRcJVsVCOUaNUQXWjLuDOXn", // ep 22
+"1RsggPHLD--tb6biqXDnWpetUevaWidqu", // ep 23
+"1X47RYd5Y6ZBF5GevuUGR1_v3lZRlo_oB", // ep 24
+"1jHkwjsBlPup4t-wkhUYaWYc19weZehxX", // ep 25
+"15-2Xifbxpxpjy02Q6YO-WVPqReZm19ha", // ep 26 
     ]
+  }
   }
 };
 
@@ -216,3 +246,4 @@ function carregarEpisodios() {
     episodiosDiv.appendChild(a);
   });
 }
+
