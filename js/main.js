@@ -98,7 +98,6 @@ const data = {
       "1fxvsvqnjwq0xsjvPdBZ1wYiPc3MF3kpp",
       "1g3gO-qRKN7HzoO678DT4beVxGyBuDqSK"
     ],
-
     "Temporada 2": [
       "1hKU-gsVG8Lo4JCIW6mfMvNoCp5NsXcSB",
       "1hM2CqfidD95uH2q8uiA8-lrNV8Evqnn4",
@@ -141,7 +140,6 @@ const data = {
       "1q8lUDBZ5l6i0YnHhTwRfT8q4wU-a0zvp",
       "1kFsOon29B6O-vqJTBcDLDuLreX3NSZ5k"
     ],
-    
     "Temporada 2": [
       "1wflsf879OJgeUppnVJ72oM6wmcWrcssv",
       "1aX_NapNC0EmurC1FerJ3X1hy_a-zSwxV",
@@ -156,6 +154,37 @@ const data = {
       "1QSa-I1kn70xiDMbk-YrCCs7yVH-OG_tH",
       "1_IC5YdCi8op6vsHoMyWMHHzZzg02pUor",
       "14Z74F0cl660qqme1KUUdQ7OJUOedODFK"
+    ]
+  },
+
+  demonslayer: {
+    "Temporada 1": [
+      "1zDasWMrgaxyYBwWkEgvcoJ_aQTVEP6jZ",
+      "1Z_s7O4v0o2tcdDPbntC2s1m3GKaUolZ0",
+      "1ijTMxWdANyp-2bd13X3-77RM4WbIF32U",
+      "1uRPe-rV9I_HCeL_BPo85WmM6lCatDPTg",
+      "1rY_E-E2fuidwXwKNJLoMsJFJm_tDfRFt",
+      "1dDB90BhDVd9p55IrMjBQXjl00CsHjpYA",
+      "1r0C0AC2iCcLTP_PzAzOBPSU8EsuWDsC8",
+      "1AX-_q3imXek0cTXZVlrmoNc8TZdgtaK1",
+      "1eCSXsbHLYKKZSvxQb5H4-HBCmKIP7WkU",
+      "1cXYzP6SU2UAanu7NvE9GWDLkY_vGHiZV",
+      "1Awfgtn5wfBisAMfkYQ1y5JgtBNimXrZe",
+      "12f77N-jQVwe38VTDaS4ywswFMd98ZjdM",
+      "1KX-CkCHIxoY_BPG0ymn_wkXOaRIDkTZs",
+      "1vDyk-w75Q1-kzVnWBgCqysHN-xNW9NdL",
+      "1vs8sCSMA8zKCGfjnXjicNaeD-B1ueq0D",
+      "1XXM9MaCa_cshA89Eoes4eu5bIpE0k8Ac",
+      "1OfR2rH_c9Jyf4me9CaPpCM0OM8TBWzFC",
+      "132OEhj_5eVQFvncRtt02igeNX55vwAbC",
+      "1ER3JdhGLnjpi6m9P3R2e2nNFcD3TY21R",
+      "1ZMxYNpyqvw-5nXSuL0hT9AirjB3I4PEy",
+      "1Q-H_nVVPxrg9SbdasDbnCqMZo8STWdyP",
+      "1qrFHr-kj0mRcJVsVCOUaNUQXWjLuDOXn",
+      "1RsggPHLD--tb6biqXDnWpetUevaWidqu",
+      "1X47RYd5Y6ZBF5GevuUGR1_v3lZRlo_oB",
+      "1jHkwjsBlPup4t-wkhUYaWYc19weZehxX",
+      "15-2Xifbxpxpjy02Q6YO-WVPqReZm19ha"
     ]
   }
 };
@@ -192,6 +221,8 @@ function carregarTemporadas() {
   temporadasSelect.innerHTML = "";
 
   const temporadas = data[tituloAtual];
+  if (!temporadas) return;
+
   Object.keys(temporadas).forEach(nome => {
     const option = document.createElement("option");
     option.value = nome;
@@ -216,9 +247,3 @@ function carregarEpisodios() {
     episodiosDiv.appendChild(a);
   });
 }
-
-
-
-
-
-
