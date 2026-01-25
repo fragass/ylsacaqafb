@@ -76,6 +76,16 @@
   </div>
 
 <script>
+  
+  const overlay = document.getElementById("overlay");
+const closeOverlay = document.getElementById("close-overlay");
+
+closeOverlay.addEventListener("click", () => {
+  overlay.style.display = "none";
+});
+</script>
+  
+<script>
   // pega o telefone do usuário logado
   const phone = sessionStorage.getItem("loggedUserPhone");
   if (phone) {
@@ -115,6 +125,7 @@ miniProfile.addEventListener("click", () => {
   <script src="js/main.js"></script>
 </body>
 </html>
+
 
 
 
