@@ -217,6 +217,22 @@ const data = {
 "1IMP2P6fd9bB_nzpJQbBQqnAw7D3gxeF3", // ep 6
 "1s2xu4vuYc5hD0z-ayHoA4RDldLKBEaJA", // ep 7
     ]
+      },
+    dandadan: {
+    "Temporada 1": [
+"1lK5pirg4HhbxpT6Y-hp8cTgq-c5r7oLr", // ep 1
+"142N31g5P_uoZCg4LNEm8uzHa-5VJsxPj", // ep 2
+"1r44b0WsZ7w1VuKBBJi-q1WlTlJdLYwvp", // ep 3
+"1HTlE-71EK33cnqp_HP18YRzmf6UPodJN", // ep 4
+"1O6fGWJ0ceHZ2c00bSiTcRoNrOiy1i2EF", // ep 5
+"13y_oLaYciVvtbY9SoGBZMWLOkI1CzAuj", // ep 6
+"1RCdnyQYz1rPkAwQ1xolHvuEULA-_Qxyq", // ep 7
+"1Hm20p9wFdM7fxDRxAmC57sW0fao0Hn0s", // ep 8
+"1DUL32FS4sbx-7s780eC5PhcOA6yD6x3C", // ep 9
+"1d2Xf5crzuI0qY34UZgZhAVJRz6kjA6te", // ep 10
+"1FwLRrLlBTWBgQUEmZZtNSFgpn5DsuHuI", // ep 11
+"1h4eu9_psfutzIOfWOMY39Zsv1-N5plF1", // ep 12
+    ]
   }
 };
 
@@ -278,6 +294,7 @@ function carregarEpisodios() {
     episodiosDiv.appendChild(a);
   });
 }
+
 
 
 
