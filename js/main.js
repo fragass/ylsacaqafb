@@ -1,43 +1,43 @@
 const data = {
   deathnote: {
     "Temporada 1": [
-      "1ffjjcP6qMyIZ4LeMGB-K3KlD-i7MAXnO",
-      "1nhAdMyBAfMXWabFARH5CtYiW35t-mSIQ",
-      "16K75KaefUYluEi752KEMj4SBSoN5CdZ5",
-      "1rx6w9qkb7o4eMe1HXPrUQMb-qJ0YYeBe",
-      "1OGHPi41Da72eheCR5iBQY4BbDcelsUYA",
-      "1eX7dznFISjVzrxsc6WNic4K33qnGcZSM",
-      "1JCKfg3CajYNcuNT_-WXrUzBs7PIWQnFf",
-      "1DZZSyImEOIe7dVWB1vDk1wA8ggrF0gBv",
-      "1DXr6ck-oN3wcG6QfOsFzGEndX4H8tM0o",
-      "1EbfaePluMxkFcrgqj1oEqpys9Y85OehE",
-      "1iYV0hfWOil90Hty7mIoHOip91J5uLQq2",
-      "1YKjvGcXLUHbRzlBrfTBAc0VW8ThZietT",
-      "1jjmbS9PzWGlXDfhZ1pEYO1K8Y91NXYM9",
-      "1ef8CJFH0_kilfDsZf0YFfVsnxpqBQWLq",
-      "15iNdMcUXcmzOnaqyTW1cECRzH_6fqtEP",
-      "1SgaqEtQcySMBOU5SkTPoXxAxktFN6WQP",
-      "1cADX6gGegPCGdKA6QcqcdlHKWW8yD8D6",
-      "1m_w-mrW7j71p_EZIsi3Hi3-3aLNCv-u1",
-      "1DaGJnbfJH-4TTPyzKDL_uat6Az8tDAWG",
-      "1an2aNw-41Pqwu18EenJb-LWZ9_IfXZj8",
-      "12bmS8rMphfcZumvqNJJTl4T5JkjSEziQ",
-      "16BoPccauXBh2YcaI99d26EXaDMzOq-5Y",
-      "1ZRPBRt6Yi9sQ5hRkxyF7Vhy0xDHw0LF_",
-      "1DE9OG2SmcxfBDF5JO0GuHOj9iLspBGxT",
-      "1-76ULDuHmSVLfpHgwmKHsjn0Pu6wUPKQ",
-      "1kYO6YLFZEnw_rElLY6PLax-kaAxZ1JjR",
-      "1kOUsPkicHLd0mNpXPpVE92kvcXqyyxG-",
-      "1RBRlul_EM3n1uKjtRqmUNtE8vA3Nhtnn",
-      "1DaN8ilJgQP-6aq_QAa1dzplufXZ87euJ",
-      "17KniOqqwbQom9z6rcphsndiONBLRrheq",
-      "1PjidYSh79g-zwithogAQaJfDBELAVBTW",
-      "111xjHtmV4qIUx9Abx-YPWD5-VxdLKN6X",
-      "1Wp7Gd-lBuyMdb2d_7opi3MUb-_gaxTPM",
-      "1G3_IU-HQU6xQcaIK2zeQ4rMJ-laW_LzY",
-      "1Z1UI7oupTpfVl_fAbBiCwFmTg-yQ5sYk",
-      "1y8iMnIqOD-pFx25oH9omWgDNGsORsSMo",
-      "16dQmePB0l3_INH-vKRV9ku_dLfV2hQMv"
+"1Ic1VI0799TWhUBcUwPBquo0CZeSW3QQL", // ep 1
+"1007ggQZKBgk-vo5sn5kVmP-J4oQ3BY-B", // ep 2
+"12j5rxDGP3rC9n7uVAIXEsurbTRcSRiKb", // ep 3
+"1hEea05OKg4qj5qknnR8pgxd7fkQO0Kg5", // ep 4
+"1FqviMrS_T4-DwIUFCUoGGRVDh-CUXqj-", // ep 5
+"153922A3polTQKcNVPy1d9jJaBbVwbDFq", // ep 6
+"1nt9tyvv1DEWHE5_G6-yM3lYeKgxckGw0", // ep 7
+"1M9buFdoT96Sh17Hfnhr_FgK3uoCheRQF", // ep 8
+"1HsKebncLuNnLl6dLwWVEEbORUSJpvuoy", // ep 9
+"13jxDXsH28I0fc-88rN_LruQ8snT7f9ih", // ep 10
+"1Fb0joydYK4oItW4l-b-p7e9QdbDQV6eB", // ep 11
+"1zOkIH0vxN3HXaXx84JEnJWA6l3NjBuwa", // ep 12
+"1DroHAjd7rR35Z9Zm1Rpn9zuFodcvMWbM", // ep 13
+"18yHyJeizBMgDSP002T-BRlC0BTGGLoQB", // ep 14
+"10ZV_gwuDjHqQiD0jplzuxcOzqflGEftZ", // ep 15
+"1m7CxDpcangpZkeFMRPF6rZ5RRpqs4FZU", // ep 16
+"1dxn40B35weEPyUybLdhpDU77X73MU578", // ep 17
+"1mPuUpUanOcHjjOJvtegrxiG7O8mD_0H_", // ep 18
+"1szk99SuF-I08z-jaHMN7F88qsOUzGxyc", // ep 19
+"1UxLWkxV-NTNjpGD4PezFaugMJkl5nfaN", // ep 20
+"1Tuq-YI6n2OliphHEbOF_m45-6y8tBliZ", // ep 21
+"1Yqkv7ZWAmdqDF0pVWB1_5W_7Y5XUqMzH", // ep 22
+"1mxgdIX7eHsmhv4ZMLAfDxK_jXpaF6WG8", // ep 23
+"1kqJI4-M8EjCyrpvg3YexWGJj22Gv1GYw", // ep 24
+"1o2GpYfP3IDwTrBzW_gYfDpl3_nbOIe0_", // ep 25
+"14n56Y59ey1rK8OknVYqa2nTCOJp99a-A", // ep 26
+"16vI0OoG4_Ij6pU3kJjdFwB1qLZbGdk7U", // ep 27
+"1qVUN56OGPV-1aHCIW8CIKpM2VeXma4er", // ep 28
+"1LKbNhIz59M4KJf6y83UmYQd1MOS9zrLh", // ep 29
+"1Ew7y4QV5YoQQyVbZDrLnIHG2GrRzEcRP", // ep 30
+"1HwP_0kswDZqHQAQHFYiY-aXdn2eCDCfM", // ep 31
+"1qo0uelQrEu0-5gxdkJfSwBqtRKvBRpsx", // ep 32
+"1P4CwE5y5jfkgwYzK4yFjobH9ziHSA26f", // ep 33
+"17bFqTMrdlUd6lYF23RdZgc2Mu-1f4ots", // ep 34
+"1obA4L8Sl5G0W3K0LjTfE6Cn0af5aD1Xf", // ep 35
+"19xzvQ7ehsgOQ4jNOeW7Aayxvq6ZHZgTS", // ep 36
+"1LkYiTMEmfFpcD42f8wRSVzr3bDgr9JtU" // ep 37
     ]
   },
 
@@ -90,7 +90,7 @@ const data = {
 "1eeDiIwGBsdkhu8ripLFxJBqdQeGmE3ev", // ep 4
 "1DoF4_jFxmLFEKLCo7au8Vt1Suih0TjR_", // ep 5
 "1CfXO0kZwSzg3nFw7PqeMPfYbalCUN4VD", // ep 6
-"1wAtlRywd6oeAYg8cPifsXpcbx1q2Z5gz", // ep 7
+"1wAtlRywd6oeAYg8cPifsXpcbx1q2Z5gz" // ep 7
     ]
   },
   jujutsukaisen: {
@@ -215,7 +215,7 @@ const data = {
 "1DNA2vyfSrSJSmaBXnNf4fn5rL4RYQVJX", // ep 4
 "1s02b4R9enWzgtzZldBB-o5F8gGGg7OWx", // ep 5
 "1IMP2P6fd9bB_nzpJQbBQqnAw7D3gxeF3", // ep 6
-"1s2xu4vuYc5hD0z-ayHoA4RDldLKBEaJA", // ep 7
+"1s2xu4vuYc5hD0z-ayHoA4RDldLKBEaJA" // ep 7
     ]
       },
     dandadan: {
@@ -231,7 +231,7 @@ const data = {
 "1DUL32FS4sbx-7s780eC5PhcOA6yD6x3C", // ep 9
 "1d2Xf5crzuI0qY34UZgZhAVJRz6kjA6te", // ep 10
 "1FwLRrLlBTWBgQUEmZZtNSFgpn5DsuHuI", // ep 11
-"1h4eu9_psfutzIOfWOMY39Zsv1-N5plF1", // ep 12
+"1h4eu9_psfutzIOfWOMY39Zsv1-N5plF1" // ep 12
     ]
   }
 };
@@ -294,6 +294,7 @@ function carregarEpisodios() {
     episodiosDiv.appendChild(a);
   });
 }
+
 
 
 
