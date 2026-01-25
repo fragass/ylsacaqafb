@@ -165,3 +165,60 @@ select {
 #dropdown-menu button:hover {
   background: #e60000;
 }
+/* OVERLAY */
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+}
+
+/* CAIXA DO POPUP */
+.overlay-box {
+  background: #111318;
+  padding: 24px 28px;
+  border-radius: 14px;
+  max-width: 400px;
+  width: 90%;
+  text-align: center;
+  box-shadow: 0 0 40px rgba(0,0,0,0.6);
+  animation: fadeIn 0.3s ease;
+}
+
+.overlay-box h2 {
+  margin-bottom: 12px;
+}
+
+.overlay-box ul {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.overlay-box li {
+  margin-bottom: 6px;
+  color: #e5e7eb;
+}
+
+#close-overlay {
+  background: #1f2937;
+  color: #e5e7eb;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 14px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+#close-overlay:hover {
+  background: #374151;
+}
+  
+/* ANIMAÇÃO */
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.9); }
+  to { opacity: 1; transform: scale(1); }
+}
+
