@@ -68,9 +68,22 @@ const data = {
       "1nkRGHOF-VdZqDMuUpg8a8mqiZM2lOU6h",
       "1XqcqQNUZVo2WnZ9-bWNzjsEHFYVYR2p8",
       "1Suuf2Rcmmb6ELB8ulLyYe3yQj_5_WGI7"
+     ],
+    "Temporada 2": [
+"1vbLxf2iCw-pZSJSemS57Ui42QN0tCml2", // ep 1 
+"1llvJS5xb9HXR1jD0Ix7mdF2LMN9BA5QR", // ep 2
+"1NzEqVlYOZBQwFOuS6zcz3Bjx4g8FlLZN", // ep 3
+"1T6yHRQ2K8caRfSb3h9RQ9Mz3QlQDv6JB", // ep 4
+"1HLeJMhBRqAVgfF9RfOljN6gDn8YQQ0qW", // ep 5
+"1vEJK4CoQHfZWyJBSArmHZ4yRX6q4BYuI", // ep 6
+"1kREOCHmNlHPI-kM6_PAlOV-WUMvgL6iO", // ep 7
+"1IWT5zfFc0T6QM4bJDPMRT9U9YQfpzDvB", // ep 8
+"1F-hK3Bp4uwH8gr6DnI9PUZUnJs5e8T5V", // ep 9
+"1o7IRb1l8kjNd9rj0v2U86J9dYJnhVZPX", // ep 10
+"1LjDdW1ufGykr53wPy8_qhSArg_4E2zSM", // ep 11
+"1kMazOXfXpsVEERzsLLVh5FYh6jGSEDOT" // ep 12
     ]
   },
-
   jujutsukaisen: {
     "Temporada 1": [
       "1QWaysW331GmlZvzBxUemfo09oqDS_DW0",
@@ -256,5 +269,6 @@ function carregarEpisodios() {
     episodiosDiv.appendChild(a);
   });
 }
+
 
 
