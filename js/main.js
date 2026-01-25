@@ -82,6 +82,15 @@ const data = {
 "1o7IRb1l8kjNd9rj0v2U86J9dYJnhVZPX", // ep 10
 "1LjDdW1ufGykr53wPy8_qhSArg_4E2zSM", // ep 11
 "1kMazOXfXpsVEERzsLLVh5FYh6jGSEDOT" // ep 12
+         ],
+    "Temporada 3": [
+"1nD55X7LoudIfnoystZqGVlQ_IX10ee7z", // ep 1
+"1jxkAlOFd6lDTfiLRVLpOeYoPkIbeKcRZ", // ep 2
+"1H3wmc3QPe_p5IPXENYEUeNk1VpxBwDHX", // ep 3
+"1eeDiIwGBsdkhu8ripLFxJBqdQeGmE3ev", // ep 4
+"1DoF4_jFxmLFEKLCo7au8Vt1Suih0TjR_", // ep 5
+"1CfXO0kZwSzg3nFw7PqeMPfYbalCUN4VD", // ep 6
+"1wAtlRywd6oeAYg8cPifsXpcbx1q2Z5gz", // ep 7
     ]
   },
   jujutsukaisen: {
@@ -269,6 +278,7 @@ function carregarEpisodios() {
     episodiosDiv.appendChild(a);
   });
 }
+
 
 
 
