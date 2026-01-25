@@ -43,31 +43,31 @@ const data = {
 
   spyxfamily: {
     "Temporada 1": [
-      "1udaFP6UgQoQ-KGxk76GPRfBB7MVCEn1w",
-      "1hOe-HdseKTJiIikGe_OYPRuOG9o7d9_J",
-      "1ZNt9lpMdHaCVb0WFRlgypKwhc55retQy",
-      "14bWWqG3i-6HY2d9Dq7_ufBdHEtXMvhfn",
-      "1LVdEbuyuyGZCLvsNTpEoAo_S7UvNYj0x",
-      "1AyFG9WsQSF-jVfP0SoeO52YwY8KtValo",
-      "1OFzezbdIZmwpL8Wv1EHrJX55bLnvOqHV",
-      "1NNYhKAgCsLPPqqUg5ZBMor-Fvc8djPx2",
-      "13Qtu0peuNv2yhtkyuXfZSlttaHlQPCe8",
-      "18nIa2KnPhi9ohQ6Un-QGkGOeFRGz0c_P",
-      "14nv0_BXk_cuAzZtDiFUuOnzvEGRo3hAP",
-      "1GjAfuFoGwyVu9T8QP_NpZH1MvS8Qy__m",
-      "1jQeN4LK3hrNopQGDIRPNUUusEmdCdGgE",
-      "1DV3b1qMNgSRAnIvwaTBQ23FmGenEkKZb",
-      "1T5XbJk3uoY9oqp_ZNMOtFNdMn70PvLMl",
-      "1J-aGsPbGmSLU36HKAZGX2NBPsXsSBYIm",
-      "1oW2g6a4ZA3AvDTdk_WhOmLp6VpxwRhYl",
-      "1sxCfds2eti14JCTpfEu8YbTpmJfchKbb",
-      "1i9A1zxjw8NMm4CzeC7Pf-E2JawfPO1nn",
-      "1pEVpQinsvAdP7E3UkM95kyQIczlmxX7X",
-      "1w6qtVZoED7TB75SuGX2tHuLIfH7lAJtk",
-      "1Am8XRt27OorqXyXvdmnSiCV8UQ0ORcxX",
-      "1nkRGHOF-VdZqDMuUpg8a8mqiZM2lOU6h",
-      "1XqcqQNUZVo2WnZ9-bWNzjsEHFYVYR2p8",
-      "1Suuf2Rcmmb6ELB8ulLyYe3yQj_5_WGI7"
+"1tfdj4V1_meCu4BAhA1bazP6ENNUtrt2L", // ep 1
+"1i-9zj2ImtygLuVV-90QuyKZ0W4YRbdYX", // ep 2
+"1iIS6RzH-CVRce-syw9kV-HBiSVlpkF4W", // ep 3
+"1cPQWCV1P61PNY1vX6Omzby3XLM7Hno0U", // ep 4
+"1ob-PfCCxqoJCZ1GWKXlEsBI9VLtBEuhv", // ep 5
+"1SJAbLczXQHHlzzh0Brb0muXN_0JUQXS4", // ep 6
+"1ljP64SvdwDzhmpjBez6ESCm-UXnjYoRW", // ep 7
+"1Yn61QRILg8-6-bOUp7TKoxkxfCyodnJM", // ep 8
+"1a9ldFnb1Mvxad6ujosYLAPHyjV6VlvbX", // ep 9
+"15Cui3Qpp8LYc19z8eL19Oxc3cv5r5RFL", // ep 10
+"1TINOuOoKeDHuxt0RnkLtcNERwUvSfMdH", // ep 11
+"1HFug_adDOmGjz54toatsPSUn_4eB5Q5z", // ep 12
+"1JovH3p6tuKGGIV8Igs5y1eTC9W8e-Qso", // ep 13
+"1h_b7QxjP0LP_Nf03Ovv0S8OPvZVBAIUl", // ep 14
+"1oF1SzOqAwxVduiJghqIIFGexsKuKvLb6", // ep 15
+"1qlklsO7XNXS9GOSt89RrvKVN-Mq0sWPZ", // ep 16
+"13t2974jHEwNIqjJcG0NJOxz46fxV5fVW", // ep 17
+"1zKXfa3VtgHKNVRKIe2cw3Bhgg8jRbirf", // ep 18
+"1qZLyIPSJ52dRIkbv0AFEDCbOXCIESyXq", // ep 19
+"17ezP1ufmUdSKGwd3TLgBoHibbRtyuXUt", // ep 20
+"1okPOJ3QoAXA8fh32njgnm5IG68SedFm5", // ep 21
+"1WKjDiH0Cdu14xTIz-iT6KjX_e2YqCjr9", // ep 22
+"1hp97UQLy94MXoeDpL6hMpAPlIA2W4XQU", // ep 23
+"1MHJntFVKhbB49CJmgtQRT66ioLbGgA_Q", // ep 24
+"1H4-Zah5V6AVOOtEpgLC0TVb1ioqtxgyj", // ep 25
      ],
     "Temporada 2": [
 "1vbLxf2iCw-pZSJSemS57Ui42QN0tCml2", // ep 1 
@@ -294,6 +294,7 @@ function carregarEpisodios() {
     episodiosDiv.appendChild(a);
   });
 }
+
 
 
 
