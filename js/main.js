@@ -309,6 +309,18 @@ const data = {
       "161o024CvKW9dm9VvrMYoxru6yHO8L23c",
       "1xfG6chaYZz6ljL-BSxqltSzaPklIJ2-J",
       "1BsjBw5059z6I8f8dBihEs2xR7wBTw2pE"
+    ],
+    "Temporada 2": [
+      "1mhSj1RD5jPe3yfFVCJE9TXWpSRVqgWzz",
+      "1xKQ-dyBpgktFBL3blhTqay6POjK-n1TC",
+      "1KnFY9m5P8LuTTieD_S4nmyKl7HNIlkKu",
+      "1ZfjPwFFSBdCTGwg9IZxX4OwkiN4ZewH7",
+      "1-FPI1QaUDs2WkbIHT9UtQ95DEMy3Upuk",
+      "1aT-88-mIEt_HnK-NVGU9DWj5zQglW25-",
+      "1hUEUlOCEiHVfbDcinegjSutvB9ps4a02",
+      "1hlaVDPjx5TdtcNJW-davuo0TpUXGVJLb",
+      "1-kpTFaI5T4m9BJ4P3feOuHVJGuJ8M7JM",
+      "1AjJNFq6PTN1u5jU405b99mprDIIdmAsc"
     ]
   }
 };
@@ -371,6 +383,7 @@ function carregarEpisodios() {
     episodiosDiv.appendChild(a);
   });
 }
+
 
 
 
