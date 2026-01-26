@@ -294,69 +294,6 @@ const data = {
 "1Hk6lQWcKZ6UHgAES3V49xicp6ww-JYGG",
 "1bf-uxdpsAd3QobzrcOWy8zSb4UALN7sq",
 "1z-Hl1PM7cg2QYuwwvRC07vrjqtzWaGyW"
-},
-
-  rickemorty: {
-    "Temporada 1": [
-      "1vDyzwdlHXu4wLKWHU6RkrNu84GhAHvQV",
-      "1PV1JB_L7W7IOchZ-A0u-bhgeFxl4l_4E",
-      "150YjUet7_3ioZ1Toe1UREspRbjkT2zT_",
-      "1VYhZjAJJvBqIhK9rAhZD0KPh4_WfNXQs",
-      "1mPI80sHFpkPOOhxMWJQF-vboy5sC-3kM",
-      "1h9pKzzaXI9O1DoX9SWnTm8ppsn1z68G9",
-      "1WwT5EDJWTFdKHgeMXlYFHpJo4EMm3nwi",
-      "1u6G2pr0wiHhZKor75RfFnWD1Is0kGxXp",
-      "161o024CvKW9dm9VvrMYoxru6yHO8L23c",
-      "1xfG6chaYZz6ljL-BSxqltSzaPklIJ2-J",
-      "1BsjBw5059z6I8f8dBihEs2xR7wBTw2pE"
-    ],
-    "Temporada 2": [
-      "1mhSj1RD5jPe3yfFVCJE9TXWpSRVqgWzz",
-      "1xKQ-dyBpgktFBL3blhTqay6POjK-n1TC",
-      "1KnFY9m5P8LuTTieD_S4nmyKl7HNIlkKu",
-      "1ZfjPwFFSBdCTGwg9IZxX4OwkiN4ZewH7",
-      "1-FPI1QaUDs2WkbIHT9UtQ95DEMy3Upuk",
-      "1aT-88-mIEt_HnK-NVGU9DWj5zQglW25-",
-      "1hUEUlOCEiHVfbDcinegjSutvB9ps4a02",
-      "1hlaVDPjx5TdtcNJW-davuo0TpUXGVJLb",
-      "1-kpTFaI5T4m9BJ4P3feOuHVJGuJ8M7JM",
-      "1AjJNFq6PTN1u5jU405b99mprDIIdmAsc"
-    ],
-    "Temporada 3": [
-      "1oF7OnV6u5hx0ofl276zd8xMbjJ_-Jnxu",
-      "1CsuW8HlSQDu-beeOfUJeW9tV-tuj4lS2",
-      "1xveOkh3X_kDDB1znezCpzEYfE80sHk2n",
-      "1gT0IhIVV1Mn8rahNoao7KROIvMFi1wLT",
-      "1m4PzhqHWHwowx2ZF8ndmQzg_kLobeS69",
-      "18B8wgFjfD6-w5bE6DX7Ux_C4f3WH69X3",
-      "1Sy5MvEcuLYfNjOFKUdF3_3o9ALnysRcP",
-      "1nHMCjnLRQGkPKpQDND4NsxFQvm5NYBzU",
-      "1A4KIn4hcg2PQXc3kAUZTmhQZni9pCgqp",
-      "1_LyYdEO4HlUIOn_SAr8_b8Q47pwLeqaR"
-    ],
-    "Temporada 4": [
-      "1fFGnRz8iR-aUiIgh7aGkNqJp7j8nAZKQ",
-      "1F7Y-PTo8eNCITC1ybtNMYo1wNT7e-XCT",
-      "1h1p28nYlCg9Wa4pe8GV-32FXpb-06aGh",
-      "1LY02WtSp7qv_lzuX3zclZkRpYZWwT3el",
-      "1aOny3rjYXLESAUwahjwH9oafUTGOfXib",
-      "1cO9JJF2YsHd9JCcjj0pOYjhCZzAhQxoP",
-      "1ByTFHzD2MMzlHxpH0TCxAEsVLS0FOhV8",
-      "1shvRzN35CFrL8nOorRdAnIuxpoByD1vq",
-      "1ukYv1_mUc1aWNnYCPNdoFd-VttLMBjp2",
-      "1_vsCVx_MRvbt7IIvCy3Cy4b1hWlkcHtt"
-    ],
-    "Temporada 5": [
-      "1yD0b06r6B38PSkBoS9BhSsDZdafg-qju",
-      "1llleILALw7Jxg4z-YHtga7UfeqBcm2KH",
-      "1glsWitPI4UED0A6rXng6kRAj6p2SrJIc",
-      "1wxutq_d1Q6Gg_WOcwEODS_yWV7SMwbB_",
-      "1_ukD3CdW2ilNHNESBVqYWc7QdKXe3g04",
-      "1vettp-Laz-eoY9JdZ-L1xdDxob006Gt_",
-      "1Z-D8ugLVYmRvWq0BYFq2MuSEmrQ9b5Ee",
-      "1-G7WHW9sxJQIw9Em87jyQzGHAu4KEreo",
-      "14AJJdz6ZBACLFrvAtwrv2cF9mI9nLL7G",
-      "1d2bSApSFGv_v_-mPmbZe1RMiUeloGi_F"
     ]
   }
 };
