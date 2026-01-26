@@ -321,6 +321,18 @@ const data = {
       "1hlaVDPjx5TdtcNJW-davuo0TpUXGVJLb",
       "1-kpTFaI5T4m9BJ4P3feOuHVJGuJ8M7JM",
       "1AjJNFq6PTN1u5jU405b99mprDIIdmAsc"
+        ],
+    "Temporada 3": [
+      "1oF7OnV6u5hx0ofl276zd8xMbjJ_-Jnxu",
+      "1CsuW8HlSQDu-beeOfUJeW9tV-tuj4lS2",
+      "1xveOkh3X_kDDB1znezCpzEYfE80sHk2n",
+      "1gT0IhIVV1Mn8rahNoao7KROIvMFi1wLT",
+      "1m4PzhqHWHwowx2ZF8ndmQzg_kLobeS69",
+      "18B8wgFjfD6-w5bE6DX7Ux_C4f3WH69X3",
+      "1Sy5MvEcuLYfNjOFKUdF3_3o9ALnysRcP",
+      "1nHMCjnLRQGkPKpQDND4NsxFQvm5NYBzU",
+      "1A4KIn4hcg2PQXc3kAUZTmhQZni9pCgqp",
+      "1_LyYdEO4HlUIOn_SAr8_b8Q47pwLeqaR"
     ]
   }
 };
@@ -383,6 +395,7 @@ function carregarEpisodios() {
     episodiosDiv.appendChild(a);
   });
 }
+
 
 
 
