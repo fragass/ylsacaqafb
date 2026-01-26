@@ -267,6 +267,23 @@ const data = {
 "18ZoOXMk3GjBEcchYfqOpbJZge2U0gwRY",
 "1Y__d12Huip-8ViMcdViLloaHxnDX3j1E"
     ]
+                      },
+      futurama: {
+    "Temporada 1": [
+"1qfXkpoc0m2gpvu00SMBCpOluZMCTt_MW",
+"1SC6esAQgfHcl_UFNAOLED98qt1ryAt7W",
+"1dpzNzfvCF0Ol6cnuf-o7-DbCORrJELly",
+"1OMerAGmHB_-33VBq3CuoF9SuudmmQaz-",
+"1kb1JIT4104nKVCAKF0nFnc0kBmYHtlqk",
+"1tCcXwDnyGlXFbFQ-YHwdWmzSUlzdzlX4",
+"1jHSBCEUw1weaU9-o-xdhp2_rnwv-5fCg",
+"1gNBY8v0O5t6iI2RBeEGiSnjQjuueXCkC",
+"1dRIO6Q3fKLtN1mD4LiMGJdKL298hfvkd",
+"1CcyaOiY5tFq0HqUBiA0bngRzaLZWFkU1",
+"1ZxkyCpcGIqkZFP7VGUD2POPX6lOcLgQN",
+"1uTym6Asp_cdgp2xH2z_Z5pcgFi19wW6b",
+"1-II4999hbzgBactKwo1ej6h504jhnpU1"
+    ]
   }
 };
 
@@ -328,6 +345,7 @@ function carregarEpisodios() {
     episodiosDiv.appendChild(a);
   });
 }
+
 
 
 
