@@ -284,6 +284,17 @@ const data = {
 "1uTym6Asp_cdgp2xH2z_Z5pcgFi19wW6b",
 "1-II4999hbzgBactKwo1ej6h504jhnpU1"
     ]
+                              },
+      familyguy: {
+    "Temporada 1": [
+"1JxgrO3VOILVopyz4CAJ9ZqNUMbK-z4Hz",
+"1CMeLUoP0e3J2WU9rFA6OVutjjAqDxmQ_",
+"1airlGqkDJSBIg3Iwdu5w_Ys_n6soRs3p",
+"1taxOL7pARGzDHbyAcRBn7QWup-7mNTf0",
+"1Hk6lQWcKZ6UHgAES3V49xicp6ww-JYGG",
+"1bf-uxdpsAd3QobzrcOWy8zSb4UALN7sq",
+"1z-Hl1PM7cg2QYuwwvRC07vrjqtzWaGyW"
+    ]
   }
 };
 
@@ -345,6 +356,7 @@ function carregarEpisodios() {
     episodiosDiv.appendChild(a);
   });
 }
+
 
 
 
