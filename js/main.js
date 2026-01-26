@@ -295,6 +295,21 @@ const data = {
 "1bf-uxdpsAd3QobzrcOWy8zSb4UALN7sq",
 "1z-Hl1PM7cg2QYuwwvRC07vrjqtzWaGyW"
     ]
+         },
+      rickemorty: {
+    "Temporada 1": [
+      "1vDyzwdlHXu4wLKWHU6RkrNu84GhAHvQV",
+      "1PV1JB_L7W7IOchZ-A0u-bhgeFxl4l_4E",
+      "150YjUet7_3ioZ1Toe1UREspRbjkT2zT_",
+      "1VYhZjAJJvBqIhK9rAhZD0KPh4_WfNXQs",
+      "1mPI80sHFpkPOOhxMWJQF-vboy5sC-3kM",
+      "1h9pKzzaXI9O1DoX9SWnTm8ppsn1z68G9",
+      "1WwT5EDJWTFdKHgeMXlYFHpJo4EMm3nwi",
+      "1u6G2pr0wiHhZKor75RfFnWD1Is0kGxXp",
+      "161o024CvKW9dm9VvrMYoxru6yHO8L23c",
+      "1xfG6chaYZz6ljL-BSxqltSzaPklIJ2-J",
+      "1BsjBw5059z6I8f8dBihEs2xR7wBTw2pE"
+    ]
   }
 };
 
@@ -356,6 +371,7 @@ function carregarEpisodios() {
     episodiosDiv.appendChild(a);
   });
 }
+
 
 
 
