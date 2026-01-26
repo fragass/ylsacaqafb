@@ -294,68 +294,6 @@ const data = {
 "1Hk6lQWcKZ6UHgAES3V49xicp6ww-JYGG",
 "1bf-uxdpsAd3QobzrcOWy8zSb4UALN7sq",
 "1z-Hl1PM7cg2QYuwwvRC07vrjqtzWaGyW"
-                              },
-      rickemorty: {
-    "Temporada 1": [
-"1vDyzwdlHXu4wLKWHU6RkrNu84GhAHvQV", // ep 1
-"1PV1JB_L7W7IOchZ-A0u-bhgeFxl4l_4E", // ep 2
-"150YjUet7_3ioZ1Toe1UREspRbjkT2zT_", // ep 3
-"1VYhZjAJJvBqIhK9rAhZD0KPh4_WfNXQs", // ep 4
-"1mPI80sHFpkPOOhxMWJQF-vboy5sC-3kM", // ep 5
-"1h9pKzzaXI9O1DoX9SWnTm8ppsn1z68G9", // ep 6
-"1WwT5EDJWTFdKHgeMXlYFHpJo4EMm3nwi", // ep 7
-"1u6G2pr0wiHhZKor75RfFnWD1Is0kGxXp", // ep 8
-"161o024CvKW9dm9VvrMYoxru6yHO8L23c", // ep 9
-"1xfG6chaYZz6ljL-BSxqltSzaPklIJ2-J", // ep 10
-"1BsjBw5059z6I8f8dBihEs2xR7wBTw2pE"  // ep 11
-    ],
-    "Temporada 2": [
-"1mhSj1RD5jPe3yfFVCJE9TXWpSRVqgWzz", // ep 1
-"1xKQ-dyBpgktFBL3blhTqay6POjK-n1TC", // ep 2
-"1KnFY9m5P8LuTTieD_S4nmyKl7HNIlkKu", // ep 3
-"1ZfjPwFFSBdCTGwg9IZxX4OwkiN4ZewH7", // ep 4
-"1-FPI1QaUDs2WkbIHT9UtQ95DEMy3Upuk", // ep 5
-"1aT-88-mIEt_HnK-NVGU9DWj5zQglW25-", // ep 6
-"1hUEUlOCEiHVfbDcinegjSutvB9ps4a02", // ep 7
-"1hlaVDPjx5TdtcNJW-davuo0TpUXGVJLb", // ep 8
-"1-kpTFaI5T4m9BJ4P3feOuHVJGuJ8M7JM", // ep 9
-"1AjJNFq6PTN1u5jU405b99mprDIIdmAsc"  // ep 10
-    ],
-    "Temporada 3": [
-"1oF7OnV6u5hx0ofl276zd8xMbjJ_-Jnxu", // ep 1
-"1CsuW8HlSQDu-beeOfUJeW9tV-tuj4lS2", // ep 2
-"1xveOkh3X_kDDB1znezCpzEYfE80sHk2n", // ep 3
-"1gT0IhIVV1Mn8rahNoao7KROIvMFi1wLT", // ep 4
-"1m4PzhqHWHwowx2ZF8ndmQzg_kLobeS69", // ep 5
-"18B8wgFjfD6-w5bE6DX7Ux_C4f3WH69X3", // ep 6
-"1Sy5MvEcuLYfNjOFKUdF3_3o9ALnysRcP", // ep 7
-"1nHMCjnLRQGkPKpQDND4NsxFQvm5NYBzU", // ep 8
-"1A4KIn4hcg2PQXc3kAUZTmhQZni9pCgqp", // ep 9
-"1_LyYdEO4HlUIOn_SAr8_b8Q47pwLeqaR"  // ep 10
-    ],
-    "Temporada 4": [
-"1fFGnRz8iR-aUiIgh7aGkNqJp7j8nAZKQ", // ep 1
-"1F7Y-PTo8eNCITC1ybtNMYo1wNT7e-XCT", // ep 2
-"1h1p28nYlCg9Wa4pe8GV-32FXpb-06aGh", // ep 3
-"1LY02WtSp7qv_lzuX3zclZkRpYZWwT3el", // ep 4
-"1aOny3rjYXLESAUwahjwH9oafUTGOfXib", // ep 5
-"1cO9JJF2YsHd9JCcjj0pOYjhCZzAhQxoP", // ep 6
-"1ByTFHzD2MMzlHxpH0TCxAEsVLS0FOhV8", // ep 7
-"1shvRzN35CFrL8nOorRdAnIuxpoByD1vq", // ep 8
-"1ukYv1_mUc1aWNnYCPNdoFd-VttLMBjp2", // ep 9
-"1_vsCVx_MRvbt7IIvCy3Cy4b1hWlkcHtt"  // ep 10
-    ],
-    "Temporada 5": [
-"1yD0b06r6B38PSkBoS9BhSsDZdafg-qju", // ep 1
-"1llleILALw7Jxg4z-YHtga7UfeqBcm2KH", // ep 2
-"1glsWitPI4UED0A6rXng6kRAj6p2SrJIc", // ep 3
-"1wxutq_d1Q6Gg_WOcwEODS_yWV7SMwbB_", // ep 4
-"1_ukD3CdW2ilNHNESBVqYWc7QdKXe3g04", // ep 5
-"1vettp-Laz-eoY9JdZ-L1xdDxob006Gt_", // ep 6
-"1Z-D8ugLVYmRvWq0BYFq2MuSEmrQ9b5Ee", // ep 7
-"1-G7WHW9sxJQIw9Em87jyQzGHAu4KEreo", // ep 8
-"14AJJdz6ZBACLFrvAtwrv2cF9mI9nLL7G", // ep 9
-"1d2bSApSFGv_v_-mPmbZe1RMiUeloGi_F"  // ep 10
     ]
   }
 };
@@ -418,6 +356,7 @@ function carregarEpisodios() {
     episodiosDiv.appendChild(a);
   });
 }
+
 
 
 
