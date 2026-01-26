@@ -250,6 +250,23 @@ const data = {
 "1t8_SLEI-E20SYKFUIVW7CW2BlRD19tN0",
 "1Q_sV_ED4RwhFfdopMQ6NQoIV12lqJ3K2"
     ]
+              },
+      ossimpsons: {
+    "Temporada 1": [
+"1Pmo396oHDcLPmzrrL5wkLZQH-MPhdZI5",
+"1R48S3yub_JhsjYQqdTHKiCE5rMwGAO5f",
+"1MHGeuP7ISdndEyBDCXcfcboW4uz_foBA",
+"1rRYA3er_3ITJ0qr0au22-iplRRdeG6rG",
+"1bR-HNC2nBYiBTtEg2rshdqpysgM4H04O",
+"1wECpN0zCZ-oRK3fIyfatE5HxvMkrAkNQ",
+"1yhyJRGykeZ1JJRV8EOZBpxowMWJ3Hk5S",
+"1DKis3E4esqi1E9T-jYBVqXqABwlw5mkv",
+"1J1Y8YDssNi-U73BeVWtqd8lKOT6ATPAP",
+"1H_-LH35qEWE376YvrIyNTLee3nojza72",
+"1nr96R_Nac--5bwnFnv01bCv1rbl4hMeY",
+"18ZoOXMk3GjBEcchYfqOpbJZge2U0gwRY",
+"1Y__d12Huip-8ViMcdViLloaHxnDX3j1E"
+    ]
   }
 };
 
@@ -311,6 +328,7 @@ function carregarEpisodios() {
     episodiosDiv.appendChild(a);
   });
 }
+
 
 
 
