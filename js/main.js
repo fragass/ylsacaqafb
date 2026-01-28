@@ -357,6 +357,22 @@ const data = {
       "1-G7WHW9sxJQIw9Em87jyQzGHAu4KEreo",
       "14AJJdz6ZBACLFrvAtwrv2cF9mI9nLL7G",
       "1d2bSApSFGv_v_-mPmbZe1RMiUeloGi_F"
+          ]
+  },
+  apenasumshow: {
+    "Temporada 1": [
+"1SUXeB_SOL6el3QqEybsO_tpBECAewXb_", // ep 1
+"1Yjkd5oAS5SGb134a3h-QKdKOl5Ohrd6N", // ep 2
+"1FpYO-QHdW7dKQXg1haX8a4jhwade59Qn", // ep 3
+"1tMOlLeI1fKREuCKGyxxKYNmZHSLlBPkU", // ep 4
+"1pj7J9Q5C8h6VzI_Ws_W4Rmw7X-Ti3vu-", // ep 5
+"1TLE-d3Zcdc_m5jRsisF-LRt2X3rphcu-", // ep 6
+"1umfOYCV2m39YJdm3HwQm9uzcfp6uMzY2", // ep 7
+"1vOXxz0x8X45GLFZ8UiIvDENaIUWtiF1H", // ep 8
+"1gizpj0QtXafnTI-sG8_ifeXAc5DZiPB_", // ep 9
+"1fITHsqED-i6nSiRyum5qvDmg-R0_1rye", // ep 10
+"1hFcwEvYJXeKWIxcrovWp3T9BC8kTj9EG", // ep 11
+"1nntBptaXOKJwFrryGa2YBoP2GedBqsOC" // ep 12
     ]
   }
 };
@@ -419,6 +435,7 @@ function carregarEpisodios() {
     episodiosDiv.appendChild(a);
   });
 }
+
 
 
 
