@@ -384,6 +384,31 @@ const data = {
     "Volume 1": [
 "1uOwp_BnYbFgxUZjNOZPXHd7GjzXaLji6" // ep 1
     ]
+              },
+  oladraoderaios: {
+    "Volume 1": [
+"1FNEs-roKSS1hK3XeW6xfRUigtGWdNkKv" // ep 1
+    ]
+              },
+  omardemonstros: {
+    "Volume 1": [
+"12vutRUD8HMZ6ZvTpeid9vxgoY1NOM4tT" // ep 1
+    ]
+              },
+  amaldicaodotita: {
+    "Volume 1": [
+"1zDFl4shKZtF1roQK4Lvtluqq1JTE0CTN" // ep 1
+    ]
+              },
+  abatalhadolabirinto: {
+    "Volume 1": [
+"1IdI0gt-4gXo_XxiVQv4iiVrG5WXaG3DL" // ep 1
+    ]
+              },
+  oultimoolimpiano: {
+    "Volume 1": [
+"1tEGHQaJXq4wbYuomx-Emlurf7cXiIg3i" // ep 1
+    ]
   }
 };
 
@@ -450,6 +475,7 @@ if (temporada.toLowerCase().includes("volume")) {
     episodiosDiv.appendChild(a);
   });
 }
+
 
 
 
