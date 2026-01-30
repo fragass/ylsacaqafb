@@ -373,6 +373,10 @@ const data = {
 "1fITHsqED-i6nSiRyum5qvDmg-R0_1rye", // ep 10
 "1hFcwEvYJXeKWIxcrovWp3T9BC8kTj9EG", // ep 11
 "1nntBptaXOKJwFrryGa2YBoP2GedBqsOC" // ep 12
+      },
+  desangueecinzas: {
+    "Volume 1": [
+"1TXqAmuzUgOkzeoVyCojkUsX0hVbnITn4" // ep 1
     ]
   }
 };
@@ -435,6 +439,7 @@ function carregarEpisodios() {
     episodiosDiv.appendChild(a);
   });
 }
+
 
 
 
