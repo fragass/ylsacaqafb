@@ -435,8 +435,8 @@ function carregarEpisodios() {
   eps.forEach((id, index) => {
     const a = document.createElement("a");
     a.href = `https://drive.google.com/uc?id=${id}&export=download`;
-    if (temporada.toLowerCase().includes("volume")) {
-  a.textContent = `BAIXAR ${temporada}`;
+if (temporada.toLowerCase().includes("volume")) {
+  a.textContent = `BAIXAR PDF ${temporada.replace(/volume/i, "").trim()}`;
   a.classList.add("btn-volume");
 } else {
   a.textContent = `Episódio ${index + 1}`;
@@ -445,6 +445,7 @@ function carregarEpisodios() {
     episodiosDiv.appendChild(a);
   });
 }
+
 
 
 
