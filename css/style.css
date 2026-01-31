@@ -210,3 +210,8 @@ select, #voltar {
 #dropdown-menu button:hover {
   background: #e60000;
 }
+#titulo-selecionado {
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 10px;
+}
