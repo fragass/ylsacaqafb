@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <script>
+  if (!sessionStorage.getItem("token")) {
+    window.location.href = "index.html";
+  }
+</script>
+<meta charset="UTF-8">
+    <title>Página inicial - Workday</title>
+          <link rel="icon" href="favicon.png" type="image/png">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div id="popup-changelog">
+  <div id="popup-box">
+    <div id="popup-icon">✨</div>
+    <ul>
+      <li>IT A coisa - Stephen King em <span class="pdf">PDF</span>.</li>
+      <li>De Sangue e Cinzas - Jennifer L. Armentrout em <span class="pdf">PDF</span>.</li>
+      <li>O Ladrão de Raios - Rick Riordan em <span class="pdf">PDF</span>.</li>
+      <li>O Mar de Monstros - Rick Riordan em <span class="pdf">PDF</span>.</li>
+      <li>A Maldição do Titã - Rick Riordan em <span class="pdf">PDF</span>.</li>
+      <li>A Batalha do Labirinto - Rick Riordan em <span class="pdf">PDF</span>.</li>
+      <li>O Último Olimpiano - Rick Riordan em <span class="pdf">PDF</span>.</li>
+    </ul>
+    <button id="fecharPopup">Fechar</button>
+  </div>
+</div>
+
+  <div id="mini-profile">
+   <span id="user-phone"></span>
+  <!-- seta fina em SVG -->
+  <svg id="arrow" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <polyline points="6 9 12 15 18 9"></polyline>
+  </svg>
+</div>
+
+  <!-- Dropdown menu -->
+  <div id="dropdown-menu">
+    <button id="logout">Sair</button>
+  </div>    
+
+<nav>
+  <div id="nav-left">
+    Para solicitar a adição de novos títulos, reportar links fora do ar ou informar erros no site,
+    <a href="https://x7a9q2m8l4.vercel.app/fjpuwozfbfxz.html" target="_blank" style="color: white; text-decoration: underline;">
+      clique aqui
+    </a>.
+  </div>
+
+  <div id="nav-center">
+    <button id="btnLer" class="active">LER</button>
+    <button id="btnAssistir">ASSISTIR</button>
+  </div>
+</nav>
+
+<div id="catalogo"></div>
+
+<div id="detalhes">
+  <div id="topo-detalhes">
+    <button id="voltar">VOLTAR AO CATÁLOGO</button>
+    <select id="temporadas">
+      <option value="">Selecione</option>
+    </select>
+  </div>
+  <div id="episodios"></div>
+</div>
+<script>
+  const user = sessionStorage.getItem("loggedUser");
+  document.getElementById("user-phone").textContent = user;
+
+  const miniProfile = document.getElementById("mini-profile");
+  const dropdownMenu = document.getElementById("dropdown-menu");
+  const arrow = document.getElementById("arrow");
+
+  miniProfile.onclick = () => {
+    const open = dropdownMenu.style.display === "block";
+    dropdownMenu.style.display = open ? "none" : "block";
+    arrow.style.transform = open ? "rotate(0deg)" : "rotate(180deg)";
+  };
+
+  document.getElementById("logout").onclick = () => {
+    sessionStorage.clear();
+    window.location.href = "index.html";
+  };
+
+  document.addEventListener("click", (e) => {
+    if (!miniProfile.contains(e.target) && !dropdownMenu.contains(e.target)) {
+      dropdownMenu.style.display = "none";
+      arrow.style.transform = "rotate(0deg)";
+    }
+  });
+</script>
+<script src="main.js"></script>
+</body>
+</html>
