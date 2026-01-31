@@ -442,6 +442,7 @@ function carregarCatalogo() {
     card.className = "card";
     card.dataset.titulo = titulo;
     card.style.backgroundImage = `url(${data[titulo].capa})`;
+    card.dataset.titulo = item.nome;
     catalogo.appendChild(card);
   });
 }
@@ -512,3 +513,4 @@ const fecharPopup = document.getElementById("fecharPopup");
 fecharPopup.onclick = () => {
   popup.style.display = "none";
 };
+
