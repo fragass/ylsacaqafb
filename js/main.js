@@ -2,111 +2,134 @@ const catalogo = document.getElementById("catalogo");
 const detalhes = document.getElementById("detalhes");
 const temporadasSelect = document.getElementById("temporadas");
 const episodiosDiv = document.getElementById("episodios");
-const voltarBtn = document.getElementById("voltar");
 const btnLer = document.getElementById("btnLer");
 const btnAssistir = document.getElementById("btnAssistir");
-const tituloSpan = document.getElementById("titulo-selecionado");
+const btnVoltar = document.getElementById("voltar");
 
-let modoAtual = "pdf";
-let tituloAtual = null;
+let modoAtual = "ler";
+let tituloAtual = "";
 
-function resetarDetalhes() {
-  tituloAtual = null;
-  temporadasSelect.innerHTML = '<option value="">Selecione</option>';
-  episodiosDiv.innerHTML = "";
+/* =========================
+   BOTÕES LER / ASSISTIR
+========================= */
+
+btnLer.addEventListener("click", () => {
+  modoAtual = "ler";
+  btnLer.classList.add("active");
+  btnAssistir.classList.remove("active");
   detalhes.style.display = "none";
   catalogo.style.display = "grid";
-  tituloSpan.textContent = ""; // <<< limpa o título
-}
+  carregarCatalogo();
+});
+
+btnAssistir.addEventListener("click", () => {
+  modoAtual = "assistir";
+  btnAssistir.classList.add("active");
+  btnLer.classList.remove("active");
+  detalhes.style.display = "none";
+  catalogo.style.display = "grid";
+  carregarCatalogo();
+});
+
+/* =========================
+   CARREGAR CATÁLOGO
+========================= */
 
 function carregarCatalogo() {
   catalogo.innerHTML = "";
+
   Object.keys(data).forEach(titulo => {
     if (data[titulo].tipo !== modoAtual) return;
 
     const card = document.createElement("div");
     card.className = "card";
-    card.dataset.titulo = titulo;
     card.style.backgroundImage = `url(${data[titulo].capa})`;
+    card.dataset.titulo = titulo;
+
+    card.addEventListener("click", () => {
+      abrirDetalhes(titulo);
+    });
 
     catalogo.appendChild(card);
   });
 }
 
-btnLer.onclick = () => {
-  modoAtual = "pdf";
-  btnLer.classList.add("active");
-  btnAssistir.classList.remove("active");
-  resetarDetalhes();
-  carregarCatalogo();
-};
+/* =========================
+   ABRIR DETALHES
+========================= */
 
-btnAssistir.onclick = () => {
-  modoAtual = "mp4";
-  btnAssistir.classList.add("active");
-  btnLer.classList.remove("active");
-  resetarDetalhes();
-  carregarCatalogo();
-};
-
-catalogo.addEventListener("click", e => {
-  const card = e.target.closest(".card");
-  if (!card) return;
-
-  tituloAtual = card.dataset.titulo;
+function abrirDetalhes(titulo) {
+  tituloAtual = titulo;
 
   catalogo.style.display = "none";
   detalhes.style.display = "block";
 
-  // >>> MOSTRA O TÍTULO NO TOPO
-  tituloSpan.textContent = tituloAtual;
+  // cria ou atualiza o título no topo
+  let tituloElemento = document.getElementById("titulo-selecionado");
+  if (!tituloElemento) {
+    tituloElemento = document.createElement("div");
+    tituloElemento.id = "titulo-selecionado";
+    tituloElemento.style.fontSize = "22px";
+    tituloElemento.style.fontWeight = "bold";
+    tituloElemento.style.marginLeft = "10px";
+    document.getElementById("topo-detalhes").appendChild(tituloElemento);
+  }
 
-  carregarTemporadas();
-});
+  tituloElemento.textContent = titulo;
 
-voltarBtn.addEventListener("click", resetarDetalhes);
-temporadasSelect.addEventListener("change", carregarEpisodios);
+  carregarTemporadas(titulo);
+}
 
-function carregarTemporadas() {
-  temporadasSelect.innerHTML = '<option value="">Selecione</option>';
-  const temporadas = data[tituloAtual];
+/* =========================
+   CARREGAR TEMPORADAS
+========================= */
 
-  Object.keys(temporadas).forEach(nome => {
-    if (nome === "tipo" || nome === "capa") return;
+function carregarTemporadas(titulo) {
+  temporadasSelect.innerHTML = `<option value="">Selecione</option>`;
+  episodiosDiv.innerHTML = "";
 
+  const temporadas = data[titulo].temporadas;
+
+  Object.keys(temporadas).forEach(temp => {
     const option = document.createElement("option");
-    option.value = nome;
-    option.textContent = nome;
+    option.value = temp;
+    option.textContent = temp;
     temporadasSelect.appendChild(option);
   });
 }
 
-function carregarEpisodios() {
-  episodiosDiv.innerHTML = "";
+/* =========================
+   MUDAR TEMPORADA
+========================= */
+
+temporadasSelect.addEventListener("change", () => {
   const temporada = temporadasSelect.value;
+  episodiosDiv.innerHTML = "";
+
   if (!temporada) return;
 
-  const eps = data[tituloAtual][temporada];
-  const tipo = data[tituloAtual].tipo;
+  const lista = data[tituloAtual].temporadas[temporada];
 
-  eps.forEach((id, index) => {
+  lista.forEach((link, index) => {
     const a = document.createElement("a");
-    a.href = `https://drive.google.com/uc?id=${id}&export=download`;
-
-    a.textContent = tipo === "pdf"
-      ? `BAIXAR PDF ${temporada.replace(/volume/i,"").trim()}`
-      : `Episódio ${index + 1}`;
-
+    a.href = link;
     a.target = "_blank";
+    a.textContent = `Episódio ${index + 1}`;
     episodiosDiv.appendChild(a);
   });
-}
+});
+
+/* =========================
+   BOTÃO VOLTAR
+========================= */
+
+btnVoltar.addEventListener("click", () => {
+  detalhes.style.display = "none";
+  catalogo.style.display = "grid";
+});
+
+/* =========================
+   INICIAR
+========================= */
 
 carregarCatalogo();
-
-const popup = document.getElementById("popup-changelog");
-const fecharPopup = document.getElementById("fecharPopup");
-
-fecharPopup.onclick = () => {
-  popup.style.display = "none";
-};
