@@ -416,65 +416,19 @@ const data = {
   desencanto: {
     tipo: "mp4",
     capa: "imgs/mp4/(des)encanto.jpg",
-    "Temporada 1": [  "1vDyzwdlHXu4wLKWHU6RkrNu84GhAHvQV",
-      "1PV1JB_L7W7IOchZ-A0u-bhgeFxl4l_4E",
-      "150YjUet7_3ioZ1Toe1UREspRbjkT2zT_",
-      "1VYhZjAJJvBqIhK9rAhZD0KPh4_WfNXQs",
-      "1mPI80sHFpkPOOhxMWJQF-vboy5sC-3kM",
-      "1h9pKzzaXI9O1DoX9SWnTm8ppsn1z68G9",
-      "1WwT5EDJWTFdKHgeMXlYFHpJo4EMm3nwi",
-      "1u6G2pr0wiHhZKor75RfFnWD1Is0kGxXp",
-      "161o024CvKW9dm9VvrMYoxru6yHO8L23c",
-      "1xfG6chaYZz6ljL-BSxqltSzaPklIJ2-J",
-      "1BsjBw5059z6I8f8dBihEs2xR7wBTw2pE"
+    "Temporada 1": [  "1A5UOdGsfJHYZf09GLgIb8YCmbg92-HRn", "1Edz0o2X9_PYKacgeDgh5pQnJPufBecdF", "1aZs9CXgj2eHXWGoh4W0HHInxkjzRhmgD", "103twtYR0XMNMe-HzkEvwZ95TZkszvb19", "1QDDXxLHQaEu1X5ig3rpdP_1Nf2hUgDmH", "1whWF7X50jxB4djyrVEZwJUhkVwUDxL6n", "1lP6XkuzcVaq8w0tJVeAH1n2-Z62eHZhx", "1Jph76fRq_PloVxXfLrD5OVX6uAXTuD8A", "1HvSkV230eAueCB9Ebm0DfZJuthXP2sbC", "1vb5x0En6C72uY5aEVL2syMS5JzXTMvMR"
                       ],
   "Temporada 2": [
-      "1rnxzqbRrpSwTrN64Sw8XlN3tGXhAabXe",
-"1yo7RgjByO9-ORvk5UK--FBe5igl6-Y3F",
-"112mSYgTfQA02cH34QoJLFi3dxWKo-L9n",
-"1JCrqLawWplgSFRkupEf4t4JxVkvOsv97",
-"1iLYw0gOaHhyiN1R2XsdmsC16o3f9F4r0",
-"1XH4-xjuGMBqFLt5JM05-SWFe-GPSIl54",
-"1BQH7fH2QPL0UPWsalIJz0ZctGAFkhaA9",
-"1mQ4IBRkWcq7-rrLC5lX3HxO9JMTKi9Di",
-"1-wCQtmPokHUKgdW-JnPmifFwjq_YF1Qo",
-"1QzDdj4zEXbo1gYxVndM46QAcJB1W4zII",
+"1bmYsljJIR-JHtdyvjDDIKK29PSpAkZMk", "14I367tZvKDNhA8qEGze--2eDhivTc5Vx", "1dVg7gftaEs3lYlU92NJyp3B88JpX3uA7", "1vPB9rFkpu7N8KPQ2DawlhpRsk5HeviHF", "1zmbUS1sWa_KdD0W93Nt67VNcBFPcbYav", "1ina9HvbHypgq96l1eBhrU0Ex-m6goIAD", "1-ZceyxzO9bGC2T8fttRMGICJu31pv5ng", "1_3hvWmVTbOfLRODbT7UJnH-Q2dfvwKz6", "1T2pOXRcgjllUvrqEaMbbZ33tHYPEDai_", "1xYeazQAozjuXs6fy71ohFydFAIWOJmSB"
                       ],
   "Temporada 3": [
-       "1oF7OnV6u5hx0ofl276zd8xMbjJ_-Jnxu",
-      "1CsuW8HlSQDu-beeOfUJeW9tV-tuj4lS2",
-      "1xveOkh3X_kDDB1znezCpzEYfE80sHk2n",
-      "1gT0IhIVV1Mn8rahNoao7KROIvMFi1wLT",
-      "1m4PzhqHWHwowx2ZF8ndmQzg_kLobeS69",
-      "18B8wgFjfD6-w5bE6DX7Ux_C4f3WH69X3",
-      "1Sy5MvEcuLYfNjOFKUdF3_3o9ALnysRcP",
-      "1nHMCjnLRQGkPKpQDND4NsxFQvm5NYBzU",
-      "1A4KIn4hcg2PQXc3kAUZTmhQZni9pCgqp",
-      "1_LyYdEO4HlUIOn_SAr8_b8Q47pwLeqaR"
+"1JGASBqWq6kxAf-lKTORXSyPDNgxnhy4n", "1HgUdE_OhKrTjQ8pIkokpKVG0EikUd-Hf", "1YBshECaMBsrYdYhv0QhXY28vyyR7J_t1", "1lAOSj8TF3ygp2S4XC0SWrjsNwcpcjkkR", "12xd9nkigZVb236V1kY6LBy1VGV-NOsDH", "17iYaUO0AoATaP05_b774XgyTlKNN6Jqj", "1dwCsNF4LgS1PGa_eQiUK-osXv8A6u3Sc", "17ryhGqf5NDO_rlcPFyY7nMLW7X7ldHhU", "1GRD5eixi-AHkOH7m4iLtBnqLuHYEcegJ", "1cMGv4_J0Y0k4f2rsjKr7TESHTvxawKZF"
                       ],
   "Temporada 4": [
-      "1fFGnRz8iR-aUiIgh7aGkNqJp7j8nAZKQ",
-      "1F7Y-PTo8eNCITC1ybtNMYo1wNT7e-XCT",
-      "1h1p28nYlCg9Wa4pe8GV-32FXpb-06aGh",
-      "1LY02WtSp7qv_lzuX3zclZkRpYZWwT3el",
-      "1aOny3rjYXLESAUwahjwH9oafUTGOfXib",
-      "1cO9JJF2YsHd9JCcjj0pOYjhCZzAhQxoP",
-      "1ByTFHzD2MMzlHxpH0TCxAEsVLS0FOhV8",
-      "1shvRzN35CFrL8nOorRdAnIuxpoByD1vq",
-      "1ukYv1_mUc1aWNnYCPNdoFd-VttLMBjp2",
-      "1_vsCVx_MRvbt7IIvCy3Cy4b1hWlkcHtt"
+"1rzHHc2ahFXSEVXhIk0InTT0JRhm91poj", "1WAMYQyu7AEKqoyzBBY6qEDUZe2AIRMzJ", "1EHVfUNU63pRp5J_dDsZ1zWnU7xZhnA4C", "1AdEld0gkib4E_sRGwy8DEM90EIOqn46x", "1Hag_5vyfb5b8J4oPUr00Vhviy-t8W-Am", "10VuRM0AqfdMA0UOGSvamC7hYsPeYttx5", "1tlnVm73MUf46denf3XMWcs79-qVQ8xgO", "1udq6rjfII6nuWoltw0OSX_N-mVMLHceP", "1mdgmHddbgZgD2KqAM10KcFIwRqUh8bua", "1wjtmno7hCb0AdtEV5-XMIHiefoiWXw4e"
                       ],
   "Temporada 5": [
-       "1yD0b06r6B38PSkBoS9BhSsDZdafg-qju",
-      "1llleILALw7Jxg4z-YHtga7UfeqBcm2KH",
-      "1glsWitPI4UED0A6rXng6kRAj6p2SrJIc",
-      "1wxutq_d1Q6Gg_WOcwEODS_yWV7SMwbB_",
-      "1_ukD3CdW2ilNHNESBVqYWc7QdKXe3g04",
-      "1vettp-Laz-eoY9JdZ-L1xdDxob006Gt_",
-      "1Z-D8ugLVYmRvWq0BYFq2MuSEmrQ9b5Ee",
-      "1-G7WHW9sxJQIw9Em87jyQzGHAu4KEreo",
-      "14AJJdz6ZBACLFrvAtwrv2cF9mI9nLL7G",
-      "1d2bSApSFGv_v_-mPmbZe1RMiUeloGi_F"
+"1AUiXXsN-uGwlhq08A2wrKyyV-JiZDfmx", "1rStfZBcgVEEKrQJhX9oZmUmk7BkHaup8", "1YMK68rS4grW5F_vQqIiGkksEnFxhG1Kw", "1py56j5L8y_Oa8wt4X2_BqNKOKMgpe6La", "14GQhS8oFSDfsFv_HQtN_IvHYEqcFR3gG", "1vN4yPfPANpqgaXvFPIzuRcoSeS2DT5Gz", "16PIIqKXlRZVcwESc2eP3tCOLsA6sumTo", "1C6qhuHrCnIKY29S5SpqrM62zhjF3a-Hq", "1WLhOolvbITJe3e7s9-OSNleYeCFlY8qa", "1_cbhx-4s9cKmnGWd7GpZeUmqgV0p6Mh7"
   ]
   }
 };
@@ -576,6 +530,7 @@ const fecharPopup = document.getElementById("fecharPopup");
 fecharPopup.onclick = () => {
   popup.style.display = "none";
 };
+
 
 
 
