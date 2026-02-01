@@ -1,53 +1,62 @@
 * {
   box-sizing: border-box;
-  font-family: Arial, sans-serif;
+  font-family: "Inter", "Segoe UI", Arial, sans-serif;
 }
 
 body {
   margin: 0;
-  background: #0e0e0e;
-  color: #fff;
+  background: #0b0c0f;
+  color: #e5e7eb;
 }
 
+/* NAVBAR */
 nav {
-  background: #151515;
+  background: #0f1115;
   display: flex;
   align-items: center;
-  padding: 12px 15px;
+  padding: 10px 18px;
+  border-bottom: 1px solid #1a1d24;
 }
 
 #nav-left {
   flex: 1;
-  font-size: 13px;
+  font-size: 12px;
+  color: #9ca3af;
 }
 
 #nav-center {
   flex: 1;
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 22px;
 }
 
 nav button {
   background: none;
   border: none;
-  color: #fff;
-  font-size: 16px;
+  color: #bfc5d2;
+  font-size: 14px;
   cursor: pointer;
+  padding-bottom: 4px;
+  transition: color 0.2s, border 0.2s;
+}
+
+nav button:hover {
+  color: #fff;
 }
 
 nav button.active {
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid #ffffff;
+  color: #ffffff;
 }
 
-/* CATÁLOGO COM LARGURA CONTROLADA */
+/* CATÁLOGO */
 #catalogo {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
-  gap: 10px;
-  padding: 15px;
-
-  max-width: 1150px;   /* <<< ISSO RESOLVE */
+  gap: 12px;
+  padding: 18px;
+  max-width: 1150px;
   margin: 0 auto;
 }
 
@@ -55,15 +64,20 @@ nav button.active {
   aspect-ratio: 2 / 3;
   background-size: cover;
   background-position: center;
-  border-radius: 5px;
+  border-radius: 6px;
   cursor: pointer;
-  transition: transform 0.2s;
+  transition: transform 0.15s, box-shadow 0.15s;
+  box-shadow: 0 0 0 1px #1a1d24;
 }
 
 .card:hover {
   transform: scale(1.04);
+  box-shadow: 
+    0 0 0 1px #ffffff,
+    0 6px 18px rgba(0,0,0,0.7);
 }
 
+/* DETALHES */
 #detalhes {
   padding: 20px;
   display: none;
@@ -75,8 +89,15 @@ nav button.active {
   display: flex;
   gap: 15px;
   margin-bottom: 20px;
+  align-items: center;
 }
 
+#titulo-selecionado {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* EPISÓDIOS */
 #episodios {
   display: flex;
   flex-wrap: wrap;
@@ -84,28 +105,42 @@ nav button.active {
 }
 
 #episodios a {
-  background: #1f1f1f;
-  padding: 10px 15px;
+  background: #12141a;
+  padding: 8px 14px;
   text-decoration: none;
-  color: #fff;
-  border-radius: 4px;
+  color: #e5e7eb;
+  border-radius: 6px;
+  font-size: 13px;
+  border: 1px solid #1a1d24;
+  transition: background 0.2s, border 0.2s;
 }
 
 #episodios a:hover {
-  background: #333;
+  background: #181b22;
+  border-color: #ffffff;
 }
 
+/* BOTÕES */
 select, #voltar {
-  background: #1f1f1f;
-  color: #fff;
-  border: none;
-  padding: 8px 12px;
+  background: #12141a;
+  color: #e5e7eb;
+  border: 1px solid #1a1d24;
+  padding: 7px 12px;
+  border-radius: 6px;
   cursor: pointer;
+  font-size: 13px;
+  transition: border 0.2s;
 }
+
+select:hover, #voltar:hover {
+  border-color: #ffffff;
+}
+
+/* POPUP CHANGELOG */
 #popup-changelog {
   position: fixed;
   inset: 0;
-  background: rgba(0,0,0,0.75);
+  background: rgba(0,0,0,0.82);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -113,71 +148,66 @@ select, #voltar {
 }
 
 #popup-box {
-  background: #111;
-  padding: 25px 30px;
-  border-radius: 12px;
+  background: #0f1115;
+  padding: 22px 26px;
+  border-radius: 14px;
   max-width: 500px;
   width: 90%;
-  box-shadow: 0 0 20px rgba(0,0,0,0.6);
-  animation: aparecer 0.3s ease;
+  border: 1px solid #1a1d24;
+  box-shadow: 0 0 40px rgba(0,0,0,0.85);
+  animation: aparecer 0.25s ease;
 }
 
 #popup-icon {
   text-align: center;
-  font-size: 22px;
-  margin-bottom: 10px;
+  font-size: 20px;
+  margin-bottom: 8px;
 }
 
 #popup-box ul {
   padding-left: 20px;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 #popup-box li {
-  margin-bottom: 8px;
+  margin-bottom: 6px;
 }
 
 #popup-box .pdf {
-  color: red;
-  font-weight: bold;
+  color: #ff5a5a;
+  font-weight: 600;
 }
+
 #popup-box button {
-  margin: 15px auto 0 auto;
+  margin: 14px auto 0 auto;
   display: block;
-  background: #222;
+  background: #12141a;
   color: #fff;
-  border: none;
-  padding: 8px 18px;
-  border-radius: 6px;
+  border: 1px solid #1a1d24;
+  padding: 7px 18px;
+  border-radius: 8px;
   cursor: pointer;
 }
 
-
 #popup-box button:hover {
-  background: #333;
+  border-color: #ffffff;
 }
 
-@keyframes aparecer {
-  from { opacity: 0; transform: scale(0.9); }
-  to { opacity: 1; transform: scale(1); }
-}
 /* MINI PROFILE */
 #mini-profile {
   position: fixed;
   top: 10px;
   right: 10px;
-  background: rgba(0, 0, 0, 0.6);
-  color: #fff;
-  font-size: 14px;
+  background: #0f1115;
+  color: #e5e7eb;
+  font-size: 13px;
   padding: 6px 12px;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  border-radius: 10px;
+  border: 1px solid #1a1d24;
   display: flex;
   align-items: center;
   gap: 8px;
   cursor: pointer;
-  user-select: none;
-  border: none;
 }
 
 /* SETA */
@@ -191,9 +221,10 @@ select, #voltar {
   position: fixed;
   top: 44px;
   right: 10px;
-  background: rgba(0,0,0,0.9);
-  border-radius: 6px;
+  background: #0f1115;
+  border-radius: 10px;
   padding: 6px 10px;
+  border: 1px solid #1a1d24;
   z-index: 1000;
 }
 
@@ -208,10 +239,11 @@ select, #voltar {
 }
 
 #dropdown-menu button:hover {
-  background: #e60000;
+  background: #e63b3b;
 }
-#titulo-selecionado {
-  font-size: 18px;
-  font-weight: bold;
-  margin-left: 10px;
+
+/* ANIMAÇÃO */
+@keyframes aparecer {
+  from { opacity: 0; transform: scale(0.92); }
+  to { opacity: 1; transform: scale(1); }
 }
