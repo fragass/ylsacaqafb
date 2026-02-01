@@ -415,7 +415,7 @@ const data = {
     },
   desencanto: {
     tipo: "mp4",
-    capa: "imgs/mp4/(des)encanto.jpg",
+    capa: "imgs/mp4/desencanto.jpg",
     "Temporada 1": [  "1A5UOdGsfJHYZf09GLgIb8YCmbg92-HRn", "1Edz0o2X9_PYKacgeDgh5pQnJPufBecdF", "1aZs9CXgj2eHXWGoh4W0HHInxkjzRhmgD", "103twtYR0XMNMe-HzkEvwZ95TZkszvb19", "1QDDXxLHQaEu1X5ig3rpdP_1Nf2hUgDmH", "1whWF7X50jxB4djyrVEZwJUhkVwUDxL6n", "1lP6XkuzcVaq8w0tJVeAH1n2-Z62eHZhx", "1Jph76fRq_PloVxXfLrD5OVX6uAXTuD8A", "1HvSkV230eAueCB9Ebm0DfZJuthXP2sbC", "1vb5x0En6C72uY5aEVL2syMS5JzXTMvMR"
                       ],
   "Temporada 2": [
@@ -530,6 +530,7 @@ const fecharPopup = document.getElementById("fecharPopup");
 fecharPopup.onclick = () => {
   popup.style.display = "none";
 };
+
 
 
 
