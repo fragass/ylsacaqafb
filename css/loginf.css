@@ -76,7 +76,7 @@ body{
 /* BOTÃO (mais separado) */
 #loginForm button{
   width:100%;
-  margin-top:22px; /* separação maior */
+  margin-top:22px;
   padding:12px 14px;
   font-size:14px;
   font-weight:500;
@@ -85,18 +85,17 @@ body{
   border-radius:10px;
   color:var(--text);
   cursor:pointer;
-  transition:all .15s ease;
+  transition:background .15s ease, border-color .15s ease;
   letter-spacing:.02em;
 }
 
 #loginForm button:hover{
+  background:#1a2129; /* levemente mais claro */
   border-color:var(--border-strong);
-  transform:translateY(-1px);
-  box-shadow:0 8px 20px rgba(0,0,0,.5);
 }
 
 #loginForm button:active{
-  transform:scale(.98);
+  background:#151b22; /* clique discreto */
 }
 
 /* ERROR */
@@ -107,3 +106,4 @@ body{
   color:var(--danger);
   min-height:16px;
 }
+
