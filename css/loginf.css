@@ -7,82 +7,88 @@
 
 body {
   height: 100vh;
-  background: #080808;
+  background: #0d1117;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #e0e0e0;
+  color: #e6edf3;
 }
 
-/* Card ultra compacto */
+/* Card compacto */
 .login-card {
   width: 100%;
-  max-width: 300px;
-  padding: 22px 20px;
-  background: #0c0c0c;
-  border: 1px solid #1a1a1a;
-  border-radius: 6px;
+  max-width: 320px;
+  padding: 26px 22px;
+  background: #161b22;
+  border: 1px solid #21262d;
+  border-radius: 8px;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.35);
 }
 
 /* Form */
 #loginForm {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 12px;
 }
 
 /* Inputs */
 #loginForm input {
-  padding: 10px 12px;
-  background: #060606;
-  border: 1px solid #1a1a1a;
-  border-radius: 4px;
-  color: #f0f0f0;
+  width: 100%;
+  padding: 11px 12px;
   font-size: 14px;
-  transition: all 0.3s ease;
+  background: #0d1117;
+  border: 1px solid #30363d;
+  border-radius: 6px;
+  color: #e6edf3;
+  transition: border 0.15s ease, box-shadow 0.15s ease;
 }
 
 #loginForm input::placeholder {
-  color: #666;
+  color: #6e7681;
 }
 
 #loginForm input:focus {
   outline: none;
-  border-color: #00fff0; /* azul futurista */
-  background: #0a0a0a;
-  box-shadow: 0 0 10px rgba(0, 255, 240, 0.6); /* sombra azul */
+  border-color: #4b5563;
+  box-shadow: none;
 }
 
-/* Botão */
+/* Botão profissional discreto */
 #loginForm button {
-  margin-top: 6px;
-  padding: 10px;
-  background: #0f0f0f;
-  border: 1px solid #222;
-  border-radius: 4px;
-  color: #e5e5e5;
+  width: 100%;
+  padding: 11px 12px;
   font-size: 14px;
+  font-weight: 500;
+  background: #21262d;
+  border: 1px solid #30363d;
+  border-radius: 6px;
+  color: #e6edf3;
   cursor: pointer;
-  transition: all 0.25s ease;
+  transition: background 0.15s ease, border-color 0.15s ease, transform 0.05s ease;
 }
 
 #loginForm button:hover {
-  background: #141414;
-  box-shadow: 0 0 8px rgb(0, 0, 0); /* sombra azul no hover */
+  background: #2a3138;
+  border-color: #3a444d;
 }
 
 #loginForm button:active {
-  background: #0a0a0a;
-  box-shadow: 0 0 8px rgb(0, 0, 0); /* sombra azul no hover */
+  transform: scale(0.98);
 }
 
-/* Erro */
+/* Mensagem de erro */
 #errorMsg {
   margin-top: 8px;
   font-size: 12px;
   text-align: center;
-  color: #a44;
+  color: #f85149;
+  min-height: 14px;
 }
+
+
+
+
 
 
 
