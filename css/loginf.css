@@ -27,8 +27,7 @@ body{
   -webkit-font-smoothing:antialiased;
 }
 
-/* ================= CARD ================= */
-
+/* CARD */
 .login-card{
   width:100%;
   max-width:340px;
@@ -39,19 +38,15 @@ body{
   box-shadow:
     0 20px 50px rgba(0,0,0,.65),
     0 0 0 1px rgba(255,255,255,.02);
-  backdrop-filter:blur(6px);
 }
 
-/* ================= FORM ================= */
-
+/* FORM */
 #loginForm{
   display:flex;
   flex-direction:column;
-  gap:14px;
 }
 
-/* ================= INPUTS ================= */
-
+/* INPUTS (mais próximos) */
 #loginForm input{
   width:100%;
   padding:12px 14px;
@@ -61,6 +56,11 @@ body{
   border-radius:10px;
   color:var(--text);
   transition:all .15s ease;
+}
+
+/* espaço pequeno entre usuário e senha */
+#loginForm input + input{
+  margin-top:8px;
 }
 
 #loginForm input::placeholder{
@@ -73,10 +73,10 @@ body{
   box-shadow:0 0 0 2px rgba(47,129,247,.15);
 }
 
-/* ================= BUTTON ================= */
-
+/* BOTÃO (mais separado) */
 #loginForm button{
   width:100%;
+  margin-top:22px; /* separação maior */
   padding:12px 14px;
   font-size:14px;
   font-weight:500;
@@ -99,13 +99,11 @@ body{
   transform:scale(.98);
 }
 
-/* ================= ERROR ================= */
-
+/* ERROR */
 #errorMsg{
-  margin-top:6px;
+  margin-top:8px;
   font-size:12px;
   text-align:center;
   color:var(--danger);
   min-height:16px;
-  letter-spacing:.02em;
 }
